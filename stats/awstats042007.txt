@@ -1,0 +1,3056 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2007-04 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2536                
+POS_VISITOR 26419               
+POS_DAY 106156              
+POS_DOMAIN 3541                
+POS_LOGIN 3778                
+POS_ROBOT 3933                
+POS_WORMS 4479                
+POS_EMAILSENDER 4610                
+POS_EMAILRECEIVER 4753                
+POS_SESSION 107083              
+POS_SIDER 107299              
+POS_FILETYPES 4888                
+POS_OS 5148                
+POS_BROWSER 5331                
+POS_SCREENSIZE 5940                
+POS_UNKNOWNREFERER 6014                
+POS_UNKNOWNREFERERBROWSER 8482                
+POS_ORIGIN 10304               
+POS_SEREFERRALS 10457               
+POS_PAGEREFS 10762               
+POS_SEARCHWORDS 15064               
+POS_KEYWORDS 19860               
+POS_MISC 2198                
+POS_ERRORS 21431               
+POS_CLUSTER 3634                
+POS_SIDER_404 21584               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20070501001935 1 0 42376185114
+FirstTime 20070401020029
+LastTime 20070430201651
+LastUpdate 20070502025614 1 0 0 0 0
+TotalVisits 2563                
+TotalUnique 1893                
+MonthHostsKnown 0                   
+MonthHostsUnknown 2006                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 687 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 116 160 3588121 196 201 4276786
+1 45 65 621789 134 139 231157
+2 27 67 1742527 105 115 401579
+3 114 286 11372715 137 142 6601040
+4 307 851 21174171 141 156 5978811
+5 625 1592 47136293 255 267 28111916
+6 878 2188 153371140 283 295 25768354
+7 1092 2602 109619431 365 395 64398236
+8 1058 2681 76350339 289 337 27634938
+9 1000 2522 67993603 339 365 29863886
+10 878 2273 68483106 209 238 15512808
+11 938 2435 82531831 328 352 28888728
+12 981 2582 75756279 280 298 21334989
+13 861 2270 107317099 216 235 14240017
+14 634 1679 91936686 277 298 20055408
+15 436 1156 35375230 200 221 21785854
+16 496 1301 35673317 205 208 20849523
+17 635 1738 117227757 224 231 20489780
+18 465 1278 33529480 234 247 13950909
+19 507 1399 41546074 237 247 23640138
+20 323 792 22805659 255 264 17604785
+21 230 650 55686722 299 304 16415079
+22 56 136 3260903 131 132 3568309
+23 27 66 3462809 109 112 1421694
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 12729 32769 1267563081
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+slurp 269 3745420 20070430204158 0
+msnbot 207 15913801 20070429201106 0
+googlebot 72 3700281 20070430205507 0
+crawl 71 1124942 20070420015814 0
+psbot 54 719085 20070421182447 0
+[^a]fish 50 605050 20070428124709 0
+jeeves 45 1765462 20070430103445 0
+speedy 16 89695 20070425175136 0
+ia_archiver 4 140817 20070421065418 0
+voila 4 30639 20070422214315 0
+spider 2 20426 20070424144720 0
+robot 1 10213 20070421031315 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 2516 6397053 0 0
+pdf 300 167245712 0 0
+htm 49 20997 0 0
+swf 5653 386257435 0 0
+html 6692 70020172 0 0
+js 3678 10120667 0 0
+jpg 7361 269078519 0 0
+Unknown 2 400 0 0
+gif 6485 19507182 0 0
+exe 33 338914944 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 13
+winxp 26673
+winlong 752
+macintosh 29
+win2000 1587
+winnt 1
+win98 286
+linux 133
+winme 289
+macosx 1878
+win2003 217
+wince 5
+Unknown 890
+freebsd 29
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 37
+msie6.0 16107
+firefox1.5.0.8 4
+firefox1.0.1 5
+firefox2.0.0.1 55
+msie5.17 29
+firefox1.0.2 1
+msie4.01 6
+netscape8.1.2 20
+netscape7.2 62
+firefox1.5.0.1 43
+links 6
+firefox1.0.4 29
+msie6.0.2900.2180 1
+netscape7.1 65
+firefox1.5.0.2 18
+firefox2.0.0.3 1644
+msie7.0 10838
+firefox1.5.0.4 40
+msie5.0 5
+firefox2.0.0.2 44
+Unknown 530
+firefox1.5.0.7 20
+msie5.01 12
+opera 17
+msie5.5 179
+firefox1.0.7 127
+konqueror 25
+firefox1.5.0.6 24
+firefox1.0 12
+mozilla 478
+firefox1.5.0.10 32
+netscape4.0 20
+firefox2.0 54
+firefox1.5.0.11 732
+firefox1.0.3 2
+netscape8.1.3 20
+safari 1463
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 40
+ISC_Systems_iRc_Search_2.1 20070429074611
+genieBot_wgao@genieknows.com 20070412091634
+Mozilla/4.0_(compatible;_MSIE_6.0) 20070408141428
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20070430080310
+cfetch/1.0 20070419052359
+boitho.com-dc/0.85_(_http://www.boitho.com/dcbot.html_) 20070427125321
+Snapbot/1.0_(_http://www.snap.com) 20070425161641
+CFNetwork/129.20 20070427192546
+cks 20070402023018
+Pingdom_GIGRIB_(http://www.pingdom.com) 20070427162649
+Factbot_1.09 20070425004326
+NextGenSearchBot_1_(for_information_visit_http://about.zoominfo.com/About/NextGenSearchBot.aspx) 20070412221111
+NextGenSearchBot_5_(for_information_visit_http://about.zoominfo.com/About/NextGenSearchBot.aspx) 20070404003801
+Mozilla/4.0 20070429171927
+Mozilla/5.0_(compatible;_BecomeBot/3.0;__http://www.become.com/site_owners.html) 20070412115921
+findlinks/1.1.1-a5_(_http://wortschatz.uni-leipzig.de/findlinks/) 20070423030323
+IECheck 20070428203414
+WebarooBot_(Webaroo_Bot;_http://www.webaroo.com/rooSiteOwners.html) 20070420112010
+MJ12bot/v1.1.2_(http://majestic12.co.uk/bot.php?_) 20070411045405
+NextGenSearchBot_4_(for_information_visit_http://about.zoominfo.com/About/NextGenSearchBot.aspx) 20070404003649
+panscient.com 20070402170640
+- 20070430122939
+Anthracite/1.6.5 20070425140120
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20070425154735
+Java/1.4.1_04 20070427074716
+Mozilla/2.0_(compatible;_MS_FrontPage_5.0) 20070419111942
+POE-Component-Client-HTTP/0.65_(perl;_N;_POE;_en;_rv:0.650000) 20070415004916
+RufusBot_(Rufus_Web_Miner;_http://www.webaroo.com/rooSiteOwners.html) 20070402093647
+BlackBerry7250/4.1.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20070406103706
+LocalcomBot/1.3.0_(_http://www.local.com/bot.htm) 20070412012857
+asterias/2.0 20070428124719
+Mozilla/5.0_(compatible;_Mypagesbot/1.0;_http://www.mypages.com/about/webmasters) 20070410021244
+pulseBot_(pulse_Web_Miner) 20070408005900
+Mozilla/3.01_(compatible;) 20070427123658
+findlinks/1.1.3-beta9_(_http://wortschatz.uni-leipzig.de/findlinks/) 20070430015655
+HTML2JPG_Blackbox,_http://www.html2jpg.com 20070415033218
+Mozilla/4.0_(compatible;) 20070430155905
+Mozilla/4.0_(compatible;_MSIE_6.0;_Bluecoat_DRTR) 20070423105638
+MSFrontPage/5.0 20070419112003
+BlackBerry8700/4.1.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/100 20070410162156
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 30
+ISC_Systems_iRc_Search_2.1 20070429074611
+WebarooBot_(Webaroo_Bot;_http://www.webaroo.com/rooSiteOwners.html) 20070420112010
+MJ12bot/v1.1.2_(http://majestic12.co.uk/bot.php?_) 20070411045405
+NextGenSearchBot_4_(for_information_visit_http://about.zoominfo.com/About/NextGenSearchBot.aspx) 20070404003649
+genieBot_wgao@genieknows.com 20070412091634
+panscient.com 20070402170640
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20070430080310
+Anthracite/1.6.5 20070425140120
+cfetch/1.0 20070419052359
+- 20070430122939
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20070425154735
+boitho.com-dc/0.85_(_http://www.boitho.com/dcbot.html_) 20070427125321
+Snapbot/1.0_(_http://www.snap.com) 20070425161641
+cks 20070402023018
+POE-Component-Client-HTTP/0.65_(perl;_N;_POE;_en;_rv:0.650000) 20070415004916
+Java/1.4.1_04 20070427074716
+CFNetwork/129.20 20070427192546
+RufusBot_(Rufus_Web_Miner;_http://www.webaroo.com/rooSiteOwners.html) 20070402093647
+BlackBerry7250/4.1.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20070406103706
+LocalcomBot/1.3.0_(_http://www.local.com/bot.htm) 20070412012857
+asterias/2.0 20070428124719
+Factbot_1.09 20070425004326
+Pingdom_GIGRIB_(http://www.pingdom.com) 20070427162649
+NextGenSearchBot_1_(for_information_visit_http://about.zoominfo.com/About/NextGenSearchBot.aspx) 20070412221111
+NextGenSearchBot_5_(for_information_visit_http://about.zoominfo.com/About/NextGenSearchBot.aspx) 20070404003801
+pulseBot_(pulse_Web_Miner) 20070408005900
+HTML2JPG_Blackbox,_http://www.html2jpg.com 20070415033218
+IECheck 20070428203414
+MSFrontPage/5.0 20070419112003
+BlackBerry8700/4.1.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/100 20070410162156
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3298 4039
+From1 1 1
+From2 1227 1230
+From3 291 297
+From4 7912 27202
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 13
+google 903 906
+earthlink 4 4
+search 58 58
+aol 32 32
+ask 2 2
+infospace 2 2
+excite 2 2
+dogpile 5 5
+msn 52 52
+altavista 1 1
+ixquick 1 1
+yahoo 161 161
+netscape 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 64
+http://yellowpages.superpages.com/listings.jsp 51 51
+http://www.glen-l.com/resources/lumber-suppliers.html 33 33
+http://fastsite.com/cgi-bin/vic.pl 27 27
+http://www.marvin.com/default.aspx 26 26
+http://www.singingfish.com 19 19
+http://www.macraesbluebook.com/search/company.cfm 16 16
+http://www.midstatelumber.com/nj_retailers.htm 8 8
+http://www.signamark.com/distributors/dealerlocator 6 6
+http://www.azek.com/dealers/ 6 6
+http://www.att.net/cgi-bin/websearch 6 6
+http://209.85.165.104/search 3 6
+http://netservices.verizon.net/portal/link/Search/ResWeb 2 2
+http://www.thegutster.com/retailers.html 1 1
+http://www.merchantcircle.com/business/Jaeger.Kitchens.732-566-9617 1 1
+http://glenl.com/resources/lumber-suppliers.html 1 1
+http://www.local.com/Parsippany_NJ/lumber_yard/6829168/Jaeger_Lumber/details.aspx 1 1
+http://www.adelphia.net/google/index.php 1 1
+http://www.trex.com/Universal/DealerLocator.asp 1 1
+http://verden.abcsok.no/index.html 1 1
+http://www.merchantcircle.com/business/Middlesex.Lumber.Home.Center.732-968-3555 1 1
+http://mobrender.com/proxy.aspx 0 1
+http://www.cbanj.org/listallmemberpopup.cfm 1 1
+http://www.caesarstoneus.com/howtobuy/dealer-locater.cfm 4 4
+http://www.local.com/07834/composite_lumber/6829168/Jaeger_Lumber/details.aspx 1 1
+http://www.superpages.com/yellowpages/C-Lumber+Yards/S-NJ/T-Union/ 2 2
+http://www.feldmanwoodproducts.com/cgi-bin/links 5 5
+http://www.njcleanenergy.com/html/1residential/3_nj4es_ziplook.php 1 1
+http://www.trueformconcrete.com/links.htm 2 2
+http://www.princetonforestproducts.com/classicdistributors.html 5 5
+http://home.bellsouth.net/s/s.dll 1 1
+http://www.andersenwindows.com/MQuestWeb/miniweb.jsp 4 4
+http://yellowpages.superpages.com/profile~SRC_google~TR_3~LID_drrE8kHGeSMZZWYBqv8shA%3D%3D.htm 1 1
+http://192.168.50.13/pipeline/target/new/tm-client-batches-target.php 1 1
+http://berry411.com/berry/yp 1 1
+http://www.switchboard.com/swbd.main/dir/results.htm 1 1
+http://www.caesarstoneus.com/howtobuy/dealer-locater-bystate.cfm 4 4
+http://www.mouldings.com/docs/find_dealer/phpZip.php 4 4
+http://www.shoplocal.com/local/default.aspx 2 2
+http://dpxmldsl.verizon.net/_1_SLET76047VG4M2__vzn.dsl/search/web/jaeger%2Bhardware/1/-/1/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/417 2 2
+http://www.pingdom.com/monitor/www.jaegerlumber.com 3 3
+http://dpxmldsl.verizon.net/_1_2U9WUSL04DU27KW__vzn.dsl/search/web/jaeger%2Blumber/1/20/1/-/0/-/1/1/1/1/_blank/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/0/-/-/-/-/-/-/-/-/-/-/0/300/top/-/Moderate/0/1 1 1
+http://intranet/search 1 1
+http://www.owenscorning.com/around/locator/SearchResultsStore.asp 3 3
+http://dpxmldsl.verizon.net/_1_6C5T5S04MGUMVF__vzn.dsl/search/web/jaegerlumber/1/-/1/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/417 1 1
+http://business.verizon.net/Search/web/Default.aspx 2 2
+http://www.leaguelineup.com/sponsors.asp 1 1
+http://www.bradleycaldwell.com/scripts2/findstate.asp 2 2
+http://www.ottosuch.de 1 1
+http://www.local.com/Short_Hills_NJ/lumber_yard/6829168/Jaeger_Lumber/details.aspx 1 1
+http://www.cambriausa.com/where_dealer.cfm 1 1
+http://local.com/08527/unfinished_kitchen_cabinets/15144717/Jaeger_Kitchens/details.aspx 1 1
+http://www.aia-nj.org/Web/firmListing.do 1 1
+http://63.127.195.68/dealoc_htm/dealerReturn.cfm 1 1
+http://www.yellowpages.com/sp/moreinfo/index.jsp 4 4
+http://www.aia-nj.org/findanarchitect/whoneedsanarchitect.shtml 1 1
+http://www.njcountryside.com/07_01/shops-services/shops-home-garden.shtml 1 1
+http://www.superpages.com/yellowpages/C-Lumber+Yards/S-NJ/T-Middlesex/ 2 2
+http://www.njcountryside.com/shops-services/shops-home-garden.shtml 3 3
+http://www.kellysearch.com/us-company-900032407.html 1 1
+http://gassnerbuilders.com/productchoices.html 2 2
+http://www.glen-l.com/resources/lumber-suppliers.html#PA 1 1
+http://72.14.209.104/search 0 2
+http://dpxml.verizon.net/_1_2NFBTG104RUGFTW__vzn.isp/search/web/jaeger%2Blumber/1/-/1/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/417 1 1
+http://www.local.com/results.aspx 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 196
+jaeger+lumber 656
+jaeger+lumber+nj 72
+jager+lumber 34
+jaeger+lumber+union+nj 19
+lumber+yards+nj 15
+jaeger+lumber+madison+nj 14
+www.jaegerlumber.com 14
+jaegerlumber.com 14
+jaegerlumber 12
+jaeger+lumber+new+jersey 11
+jaeger+doors 1
+jaeger+lumber+middlesex 2
+lumber+yard+madison+nj 2
+jaeger+lumber+and+millwork 1
+bar 3
+jaeger+lumber+union 4
+lumber+yards+in+nj 8
+lumber+yards+point+pleasant+nj 2
+lumber+yards+in+pt+pleasant+nj 1
+kitchen+design 1
+jaeger+lumber+in+middlesex+nj 1
+en-us 1
+cwp+cabinet 2
+drawing+and+measuring 1
+jaeger+lumber+madison+new+jersey 1
+jaeger+lumber+bernardsville 1
+measuring+counter+tops 2
+jhc+kitchens 1
+jaeger+in+madison+nj 1
+lumber+stores+in+middletown 1
+jaeger+bernardsville 2
+www.+jaeger+lumber 1
+measuring+a+kitchen+for+remodeling 1
+jaeger+s+lumber 1
+cwp+cabinets 1
+madison+new+jersey+hardware 1
+jaeger+lumber+yard 1
+warren+nj+lumber+yard 1
+window+height+from+floor 1
+jaeger+lumber+in+madison+n.j. 1
+doors 1
+belmar+nj+lumber 1
+lumber+belmar+nj 1
+measuring+your+kitchen 1
+lumber+yard 1
+jaeger+lumber+in+stirling+nj 1
+en-au 2
+lumber+yard+union+new+jersey 1
+cnn 1
+how+to+measure+a+kitchen+grid+paper+pdf 2
+jaeger 1
+jaeger+lumner 1
+jaeger+lumber+catalog 1
+lumber+madison+nj 3
+jaeger+hardware+%26+lumber 1
+imperia+cabinetry 1
+hardware+madison+nj 2
+jaeger+kitchens+bernardsville+nj 1
+jaeger+home+center 1
+jaeger+lumber+storm+doors 1
+kitchen+construction+project+planner 1
+garage+doors+union+nj 1
+fieldstone+cabinetry 1
+hold+em 1
+lumber+yard+nj 7
+jaeger+lumber+in+union+nj 1
+doors+madison+new+jersey 1
+hardwood+belmar+nj 1
+jaeger+overhead+doors 1
+how+to+measure+your+kitchen+with+grid+paper 1
+aristokraft+cabinetry 2
+lumber+yards+new+jersey 4
+jaeger+lumber+%26+supply+point+pleasant+nj 1
+nj+lumber+yard 1
+lumber+yard+nyc 1
+jaeger+kitchens 8
+jaeger+nj 2
+landscaping+supplier+material 1
+jagaer+lumber 1
+door+boy 1
+imperia+kitchen+cabinets 1
+jaeger+lumber+point+pleasant+nj 2
+jaeger+lumber+and+madison+nj 1
+jaeger+hardware+new+jersey 1
+hardware+store+madison+new+jersey 1
+jaeger+lumber+locations 1
+jaeger+kitchen+center 1
+lumber+yards+in+new+jersey 1
+h500sc 1
+jaeger+lumber+showroom 1
+jaeger+garage+doors 4
+lumber+yard+berkeley+heights+nj 1
+732-899-9663 1
+armstrong/hartco+flooring 1
+jaeger+cabinets+new+jersey 1
+nj+lumber+yards 3
+jaeger+lumber+cherry 1
+lumber+yard+in+middlesex+nj 1
+ie7 3
+jaeger+cabinets+in+new+jersey 1
+lumber+yard+new+jersey 1
+jaeger+lumber+in+nj 2
+lumber+in+summit+new+jersey 1
+lumber+yard+in+watchung+nj 1
+jeager+lumber 10
+counter+tops+%26+mouldings 1
+carriage+style+overhead+garage+doors 1
+lumber+new+jersey 2
+jaeger+overhead+garage+door+madison+nj 1
+jaeger+kitchens+in+union+nj 1
+jaeger+belmar 3
+aristokraft+cabinetry+price+point 1
+diamond+line+cabinetry 1
+imperia+cabinets 5
+jaeger+lumber+07922 1
+jaeger+s+union+nj 1
+imperia+cabinet 1
+jaeger+lumber+point+pleasant 1
+proccess+planing 1
+lumber+warren+nj 1
+jaeger+lumber+madison 1
+jaeger+lumber+belmar 7
+toolbar 1
+lumber+in+wall+nj 1
+lumber+yard+point+pleasant 1
+garage+doors 1
+garage+doors+jaeger+nj 1
+jaeger+lumber+stirling+nj 4
+union+nj+building+materials 1
+lumber+middlesex+nj 1
+lumber+manasquan+nj 1
+window+store+basking+ridge 1
+jaeger+lumber+middlesex+nj 2
+jaegr+lumber 1
+hardware+store+matawan 2
+kitchen+counter+tops 1
+jaeger+hardware+belmar+nj 1
+hardware+stores+madison+nj 1
+jagar+lumber 1
+jaeger+union+nj 1
+lumber+for+garage+door 1
+jaegerlumber%5d 2
+kitchen+cabinets 1
+measuring+doors+and+windows 1
+jaeger+madison+nj 3
+lumber+nj 3
+jaeger+lumber+stirling+n.j. 1
+jaeger+lumber+doors 1
+jaegar+lumber+madison+nj 1
+garage+doors+in+union+new+jersey 2
+www%2ejaegerlumber%2ecom 1
+site 5
+lumber+yards+in+middletown+nj 1
+jaeger+products+lumber+yard 1
+garage+headquarters 1
+net 6
+www%2ejaegerkitchens%2ecom 1
+scrapbook+of+notes+photos+and+articles 1
+kitchen+planner+grid+paper 1
+jaeger+kitchens+stirling 2
+lumberyard+nj 1
+door+measuring 1
+jaeger+lumber+and+nj 1
+jauger+lumber 1
+jeager+lumber+nj 1
+jaeger-+lumber 1
+lumber+point+pleasant+nj 2
+nj+lumber 2
+plan+your+kitchen+design+free+download 1
+jaeger+home+concepts 5
+measuring+a+kitchen 2
+lumber+07040 2
+lumber 1
+jaeger+lumber-+nj 1
+measuring+counter+top+grid 1
+jaeger+lumber+%26+nj 1
+jaeger+lumber+kitchens 2
+jaeger+lumber+in+new+jersey 2
+home+improvement+process 1
+105 4
+jaeger+lumber+supply+pt+pleasant+new+jersey 1
+lemieux+doors 3
+jaeger+lumber+belmar+nj 3
+jaeger+lumber+home+page 1
+jaeger+lumber+n.j. 1
+lumber+union+nj 1
+jaegar+lumber+union+nj 1
+jaeger+lumber+bernardsville+nj 1
+measuring+kitchen+counter+tops 2
+lumber+yards+in+union+nj 1
+garage+headquarters+and+ohd 1
+jaeger+lumber+company 1
+lumber+yard+point+pleasant+new+jersey 2
+custom+cabinets+cwp 1
+jaegerlumber%2ecom 1
+jaeger+garage+doors+nj 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 153
+lumber 967
+jaeger 881
+nj 213
+yards 36
+madison 35
+jersey 35
+new 35
+union 35
+jager 34
+in 30
+floor 1
+%26 4
+storm 1
+bar 3
+plan 1
+products 1
+locations 1
+www.jaegerlumber.com 14
+en-us 1
+supply 2
+em 1
+drawing 1
+cwp 4
+manasquan 1
+materials 1
+door 4
+hardwood 1
+your 3
+and 7
+download 1
+cherry 1
+ohd 1
+of 1
+wall 1
+custom 1
+landscaping 1
+garage 15
+stirling 8
+www. 1
+doors 21
+paper 4
+en-au 2
+cnn 1
+height 1
+concepts 5
+construction 1
+notes 1
+jaegar 2
+pt 2
+lumner 1
+a 5
+windows 1
+stores 2
+jhc 1
+pdf 2
+imperia 8
+s 2
+jeager 11
+lemieux 3
+hold 1
+building 1
+cabinets 11
+lumberyard 1
+diamond 1
+project 1
+h500sc 1
+planing 1
+free 1
+732-899-9663 1
+company 1
+pleasant 13
+grid 5
+ie7 3
+store 4
+jaegerlumber.com 14
+nyc 1
+middletown 2
+warren 2
+07040 2
+n.j. 3
+watchung 1
+jaeger- 1
+kitchens 15
+overhead 3
+millwork 1
+boy 1
+headquarters 2
+line 1
+aristokraft 3
+scrapbook 1
+toolbar 1
+top 1
+jagaer 1
+lumber- 1
+with 1
+measuring 12
+catalog 1
+ridge 1
+design 2
+to 3
+from 1
+bernardsville 5
+home 8
+jaegerlumber%5d 2
+matawan 2
+mouldings 1
+style 1
+improvement 1
+cabinetry 6
+www%2ejaegerlumber%2ecom 1
+jaegerlumber 12
+site 5
+counter 7
+material 1
+page 1
+armstrong/hartco 1
+net 6
+kitchen 17
+summit 1
+www%2ejaegerkitchens%2ecom 1
+hardware 10
+remodeling 1
+articles 1
+how 3
+for 2
+process 1
+belmar 17
+middlesex 7
+flooring 1
+price 1
+photos 1
+fieldstone 1
+jaegr 1
+window 2
+heights 1
+center 2
+showroom 1
+supplier 1
+jauger 1
+105 4
+tops 6
+basking 1
+jagar 1
+yard 23
+cabinet 3
+berkeley 1
+carriage 1
+proccess 1
+07922 1
+point 12
+measure 3
+jaegerlumber%2ecom 1
+planner 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+401 4 2392
+403 2 0
+302 3 960
+206 2104 403679850
+400 41 24231
+404 2850 1451460
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 147
+/swf/contact_us.html 2 -
+/kitchens/jhc/index.html 71 -
+/pictures%20and%20logos/Nord%20Logo.gif 1 -
+/velux_frames.htm 3 -
+/kitchens/.../swf/kitchens10A.swf 3 -
+/home_improvement_process.html 3 -
+/kitchens/.../swf/kitchens02.swf 4 -
+/doors_page.htm 13 -
+/larson_frames.htm 1 -
+/swf/mouldings.swf\"+quality=\"best 2 -
+/garage_home02.html 49 -
+/swf/home04.swf\"+quality=\"best 2 -
+/garage_kitchens09.html 83 -
+/measuring_for_your_new_kitchen.html 3 -
+/swf/jhc-b 2 -
+/moldings_hardwoods/application/x-shockwave-flash 1 -
+/swf/kitchens07A 2 -
+/swf/flooring.swf\"+quality=\"best 2 -
+/pictures%20and%20logos/simpson_small.gif 1 -
+/marvin_frames.htm 7 -
+/_vti_bin/owssvr.dll 10 -
+/swf/doors-a.swf\"+quality=\"best 2 -
+/kitchens/.../swf/kitchens03A.swf 3 -
+/moldings_hardwoods/moldings_hardwoods/index.html 44 -
+/decks_and_decking.htm 9 -
+/kitchens09.html 86 -
+/windows_page.htm 6 -
+/swf/jhc-b.swf\"+quality=\"best 2 -
+/home02.html 50 -
+/javascript:back() 1 -
+/swf/kitchens10A.swf\"+quality=\"best 2 -
+/swf/kitchens09A 2 -
+/kitchens/kitchens09.html 71 -
+/swf/home02.swf\"+quality=\"best 2 -
+/tools.htm 2 -
+/Paintspage.htm 4 -
+/kitchen_planning_guide.html 3 -
+/misc_building_material.htm 4 -
+/exchange 5 -
+/&quot 2 -
+/superseal_frames.htm 2 -
+/swf/flooring 1 -
+/kitchens/flooring.html 73 -
+/kitchens/kitchens/ 1 -
+/index.htm 40 -
+/swf/doors.html 3 -
+/swf/moldings_hardwoods/index.html 3 -
+/swf/mouldings 1 -
+/kolbe_frames.htm 3 -
+/verify-ComplianceSplash 1 -
+/kitchens/jhc/ 1 -
+/pictures%20and%20logos/Info%20logo.jpg 1 -
+/moldings_hardwoods/moldings_hardwoods/ 1 -
+/remodeling_hints.html 3 -
+/moldings_hardwoods/swf/mouldings 1 -
+/favicon.gif 3 -
+/swf/index.html 3 -
+/kitchens/garage_kitchens09.html 69 -
+/cabinets.html 3 -
+/pictures%20and%20logos/Therma-tru.gif 1 -
+/locator_frames.htm 1 -
+/moldings_hardwoods/kitchens09.html 45 -
+/moldings_hardwoods/windows.html 43 -
+/hylite_frames.htm 10 -
+/swf/windows.html 2 -
+/kitchens/.../swf/kitchens09A.swf 4 -
+/counter_tops.html 3 -
+/kitchens/S-Btn-Sel= 1 -
+/key%202006/key%202006%20web25.jpg 1 -
+/pictures%20and%20logos/jaeger_guyhome.gif 277 http://www.feldmanwoodproducts.com/cgi-bin/links
+/swf/credit_dept.html 3 -
+/swf/jhc/index.html 3 -
+/Key_account_2004.htm 4 -
+/swf/kitchens10A 1 -
+/swf/flooring.html 2 -
+/jhc/application/x-shockwave-flash 1 -
+/Credit.htm 8 -
+/robots.txt 1021 -
+/moldings_hardwoods/flooring.html 39 -
+/swf/windows-b.swf\"+quality=\"best 2 -
+/swf/home04 1 -
+/Content%20Bar.htm 1 -
+/lumber_page.htm 7 -
+/swf/doors-a 1 -
+/Hardwood%20catalog.pdf 3 -
+/swf/kitchens/index.html 3 -
+/swf/kitchens04A 1 -
+/swf/home02 1 -
+/outdoor 1 -
+/moldings_hardwoods/garage_kitchens09.html 40 -
+/swf/kitchens03A 1 -
+/swf/kitchensA 2 -
+/garage%20doors.htm 14 -
+/swf/key_account.html 2 -
+/notified-ComplianceSplash 1 -
+/kitchens/application/x-shockwave-flash 1 -
+/swf/kitchens06A 2 -
+/kitchens.htm 25 -
+/swf/kitchens03A.swf\"+quality=\"best 2 -
+/storage_solutions.htm 5 -
+/kitchens/.../swf/kitchensA.swf 3 -
+/swf/garage-a.swf\"+quality=\"best 2 -
+/pictures%20and%20logos/Jaeger_Lumber_Title.gif 3 http://as.starware.com/dp/search
+/moldings_hardwoods/contact_us.html 45 -
+/moldings_hardwoods/S-Btn-Sel= 1 -
+/Key_account_2006.htm 1 -
+/swf/kitchens02 3 -
+/pic 1 -
+/Kitcontact_us.html 3 -
+/contact_jaeger_lumber.htm 28 -
+/pictures%20and%20logos/Logos/Jaeger%20Log%20in%20center%20jpg.jpg 2 http://images.search.yahoo.com/search/images/view
+/swf/garage-a 1 -
+/kitchens/kitchens/index.html 65 -
+/pictures%20and%20logos/garage2.jpg 6 -
+/swf/windows-b 1 -
+/kitchens/windows.html 75 -
+/content%20bar%20for%20frame%20links.htm 3 -
+/kitchens/moldings_hardwoods/ 1 -
+/landscape.htm 2 -
+/MSOffice/cltreq.asp 10 -
+/application/x-shockwave-flash 1 -
+/Hardwoods.htm 10 -
+/kitchens/.../swf/kitchens04A.swf 3 -
+/moldings_hardwoods/kitchens/index.html 37 -
+/swf/kitchens06A.swf\"+quality=\"best 2 -
+/swf/kitchens09A.swf\"+quality=\"best 2 -
+/Paints.htm 1 -
+/Key%20trip%20locations.htm 3 -
+/&amp 5 -
+/kitchens/moldings_hardwoods/index.html 67 -
+/planning.html 3 -
+/swf/kitchens04A.swf\"+quality=\"best 2 -
+/swf/kitchens02.swf\"+quality=\"best 2 -
+/Forms/Architect%20Cocktail%20Reception%20Invitation%20-%2010.23.06.pdf 6 -
+/moulding.htm 6 -
+/gallery.html 2 -
+/swf/kitchens07A.swf\"+quality=\"best 2 -
+/kitchens/.../swf/kitchens06A.swf 4 -
+/testimonials.html 3 -
+/kitchens/swf/home02 1 -
+/pictures%20and%20logos/Logos/Key%20logo.gif 1 -
+/swf/doors- 1 -
+/Andersen%20frames.htm 3 -
+/pozzi_frames.htm 14 -
+/moldings_hardwoods/jhc/index.html 44 -
+/swf/kitchensA.swf\"+quality=\"best 2 -
+/swf/garage_doors.html 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2006
+63.139.225.154 130 279 50769521 20070425113825
+67.108.223.130 85 89 2251594 20070425154735
+189.19.58.138 80 83 925643 20070420055857
+71.187.7.66 64 195 2965331 20070417183135
+69.37.189.84 60 62 855568 20070424201243
+88.9.9.8 57 57 502369 20070429074611
+208.53.147.89 53 53 1042008 20070410082207
+12.109.39.98 44 147 3263762 20070411090437
+67.81.174.184 42 84 42657171 20070420142637
+69.142.232.165 42 138 1191341 20070401152723
+138.89.80.125 4 10 210485 20070423152531
+68.239.247.18 4 8 210485 20070416112411
+68.197.46.71 8 22 563923 20070404132224
+69.125.219.200 4 15 410100 20070421115436
+69.249.68.149 8 24 582246 20070420140114
+205.188.116.141 9 9 761833 20070428133651
+68.196.26.48 6 26 459914 20070424143247
+64.12.116.15 3 3 215175 20070415160413
+216.213.96.50 4 8 210485 20070412121835
+65.40.194.53 18 49 2346669 20070401140153
+24.187.123.9 7 13 490634 20070425163336
+68.193.74.168 34 68 2397606 20070423055151
+72.88.153.238 1 1 11111 20070430141451
+138.89.168.6 6 15 379603 20070412070824
+165.89.84.86 20 60 1510731 20070430102744
+24.187.125.94 10 27 777432 20070407080819
+68.197.164.60 7 13 371154 20070401073430
+216.15.122.206 2 20 293404 20070420080457
+24.228.15.9 2 5 116759 20070414103339
+72.68.106.218 4 8 210485 20070425105136
+65.164.153.129 5 10 251347 20070423055632
+12.75.233.133 2 5 116759 20070425153524
+63.138.22.18 8 16 210485 20070413110152
+68.39.190.54 4 8 210485 20070424061452
+138.89.100.110 5 10 2959252 20070402143808
+152.163.100.203 1 1 10452 20070409170141
+69.125.167.141 8 22 563923 20070422203059
+198.54.202.210 1 1 11084 20070423115722
+205.188.116.70 1 1 15903 20070406042856
+70.111.99.30 8 21 436333 20070416173041
+70.107.208.14 10 27 751364 20070429174216
+192.128.167.68 29 62 4494523 20070412125019
+71.187.21.207 4 8 210485 20070409044542
+69.249.51.45 4 21 343155 20070414154605
+204.141.188.252 4 8 210485 20070405141638
+192.234.149.224 12 29 1000845 20070420072305
+67.80.157.59 14 23 40852000 20070412073249
+66.167.184.252 2 5 116759 20070418071235
+24.149.156.162 11 22 2659212 20070419153221
+69.253.44.197 4 8 210485 20070413063704
+68.197.89.192 14 33 736662 20070423093203
+24.187.147.186 5 10 1039541 20070408101959
+192.107.39.18 20 40 1268334 20070429170604
+67.154.72.130 4 8 210485 20070410115753
+68.174.135.156 5 24 343155 20070422200302
+64.12.116.14 1 4 15379 20070407090626
+24.225.130.148 26 71 1806092 20070404163413
+141.150.102.39 4 8 210485 20070406103844
+24.225.128.18 7 20 477158 20070416192437
+69.142.172.208 4 9 240558 20070424075354
+67.80.209.103 5 10 515253 20070412070224
+195.93.21.106 1 1 76108 20070423055535
+69.249.53.100 6 22 460230 20070409151157
+208.37.238.118 2 5 116759 20070404112448
+12.28.139.133 14 35 220698 20070412070813
+68.160.110.19 10 21 618437 20070427103409
+71.235.151.122 7 20 1529490 20070429050544
+68.37.121.49 4 8 210485 20070423091101
+68.82.142.234 4 15 410100 20070422130657
+138.89.33.235 8 18 475610 20070401074036
+152.163.101.12 0 3 11053 
+209.236.249.1 17 46 881337 20070403130142
+69.142.239.22 4 8 210485 20070411174930
+68.45.0.185 2 6 157286 20070413060915
+199.20.121.94 2 5 116759 20070403111637
+66.252.189.90 4 8 210485 20070412051550
+72.88.208.76 7 13 469974 20070418113753
+71.250.61.227 6 12 310190 20070406043542
+138.89.151.47 13 42 1076071 20070427095608
+65.91.88.3 12 37 837427 20070430131519
+75.194.91.103 1 4 45319 20070401055834
+125.212.91.153 1 4 45319 20070419113949
+72.88.222.10 4 15 410100 20070415113122
+208.115.205.174 26 73 1800965 20070427064835
+167.219.88.140 6 11 357009 20070417130042
+71.172.73.225 10 27 308233 20070415051238
+72.68.38.18 22 74 1224682 20070401132353
+12.146.80.227 5 16 187200 20070424050919
+216.54.60.249 30 69 1754440 20070412135508
+76.1.245.100 17 34 902828 20070418184609
+207.69.138.139 6 13 436333 20070427152117
+69.249.75.44 1 1 111207 20070402080313
+152.163.100.200 4 9 75337 20070428071857
+71.249.191.14 11 18 571587 20070409124058
+71.187.87.165 8 30 545041 20070428124050
+68.38.253.179 3 6 227966 20070425083712
+72.90.145.61 2 5 116759 20070405071833
+121.34.196.34 1 1 10213 20070427110830
+63.117.201.120 4 21 326952 20070430064959
+69.115.226.118 2 5 116759 20070421134752
+71.250.126.243 4 21 343155 20070424084324
+70.21.131.83 4 9 267215 20070411171321
+64.16.62.92 4 9 285877 20070412091728
+24.215.243.220 2 5 116759 20070403203823
+69.90.42.91 2 2 20426 20070410021244
+68.36.183.4 8 29 608280 20070414053331
+208.68.20.240 7 13 369850 20070430092502
+64.12.116.203 0 10 245106 
+143.115.159.53 2 5 116759 20070402112518
+24.187.126.153 4 21 343155 20070412161135
+68.193.70.241 2 6 157286 20070422075646
+71.251.192.27 2 5 116759 20070428141938
+69.249.64.121 5 10 250469 20070406070650
+68.38.52.147 4 8 210485 20070406080041
+71.53.8.144 12 49 605999 20070430110629
+12.34.118.2 2 5 116759 20070415053742
+198.160.35.2 7 16 3071839 20070430101226
+199.184.38.5 6 12 351222 20070403114715
+24.149.187.209 2 5 116759 20070430075731
+71.251.212.132 4 8 210485 20070425124120
+138.89.94.5 4 9 231428 20070401083119
+68.37.188.99 4 15 410100 20070401195652
+4.79.17.248 20 38 874717 20070403130632
+67.68.20.196 36 94 1042781 20070407145358
+71.172.220.223 2 5 116759 20070424033626
+68.38.86.6 10 21 691739 20070421122713
+65.94.4.197 36 94 1042781 20070428211417
+71.172.134.72 7 13 371154 20070423075554
+69.249.40.135 11 27 770116 20070421175255
+72.76.19.248 4 8 210485 20070429102216
+205.188.116.7 0 2 33806 
+199.89.64.179 3 16 231648 20070410102108
+66.167.18.3 18 45 1273648 20070424121458
+68.196.255.6 2 5 116759 20070420083727
+71.127.208.106 2 5 116759 20070428172303
+152.163.101.18 6 9 532257 20070418090955
+66.194.6.73 4 4 40852 20070414165416
+69.244.123.5 12 38 467577 20070405113252
+69.125.12.186 5 10 711861 20070428151010
+205.188.116.137 0 2 201066 
+69.115.161.47 4 8 210485 20070421112826
+65.206.111.130 23 49 3203928 20070410085902
+131.107.65.111 1 1 12708 20070417224707
+68.9.182.203 6 12 310206 20070424173149
+68.164.200.19 2 5 116759 20070417163153
+206.101.190.195 12 42 828417 20070420113845
+72.68.93.239 2 5 116759 20070417071202
+68.193.101.52 4 8 210485 20070401084750
+198.16.9.11 6 14 367771 20070424133841
+64.12.117.18 0 3 6668 
+70.107.232.104 4 9 267215 20070430121646
+205.188.117.14 0 4 9376 
+64.12.116.130 0 5 15988 
+66.159.137.71 4 8 210485 20070429140138
+64.19.145.158 2 5 116759 20070427124942
+70.21.191.251 3 21 229538 20070407133451
+71.250.166.58 2 5 116759 20070415091001
+74.92.55.185 5 13 416373 20070430041901
+69.249.89.167 4 9 267215 20070401164405
+72.68.80.23 2 5 116759 20070417074052
+64.12.116.137 1 1 79593 20070407090536
+71.250.232.107 8 14 1176248 20070405121106
+205.188.117.20 0 8 1266286 
+68.38.234.143 4 8 210485 20070421093236
+68.193.244.193 5 9 338713 20070416090908
+161.185.1.100 12 37 837427 20070425094340
+71.187.27.112 16 79 536170 20070421173605
+64.12.116.9 2 2 28484 20070419153936
+152.163.100.74 1 1 131072 20070410101014
+67.80.78.209 22 55 1211715 20070422074521
+68.196.219.224 0 2 89779 
+152.163.100.195 0 2 5616 
+71.127.198.34 10 26 549388 20070421175741
+198.151.41.205 4 21 343155 20070412145531
+24.149.198.178 34 65 3989065 20070424155758
+208.115.204.191 4 9 231428 20070415092601
+72.90.254.20 4 8 210485 20070430105511
+68.38.14.212 5 10 1727669 20070403191718
+69.115.243.30 2 5 116759 20070421113901
+68.193.79.52 7 13 389816 20070417130148
+76.184.75.210 2 12 196486 20070406144915
+24.187.145.243 10 19 722605 20070430055136
+24.0.8.221 2 5 116759 20070408000444
+81.169.133.219 1 1 10213 20070405171320
+71.251.212.12 2 5 116759 20070407154506
+67.80.158.200 2 5 116759 20070418224435
+69.249.91.162 4 9 285877 20070420082115
+69.249.50.126 11 21 694518 20070430145925
+71.250.64.163 2 5 116759 20070411163934
+68.239.194.30 6 18 503826 20070423123115
+129.83.31.3 2 12 196486 20070409083938
+68.193.205.93 4 21 343155 20070409060901
+220.181.34.190 1 1 10213 20070414005259
+69.249.47.90 6 19 467577 20070419181438
+71.193.131.33 5 11 231428 20070419092512
+192.147.58.6 1 8 0 20070401083440
+66.21.97.125 4 8 210485 20070405130958
+68.37.78.32 7 13 371154 20070406063200
+67.84.8.165 2 5 116759 20070415164905
+69.249.78.183 4 15 410100 20070416060528
+68.192.181.107 7 20 475777 20070417074821
+68.39.254.152 6 12 260721 20070415124348
+69.249.42.107 4 8 210485 20070417103619
+138.89.95.61 8 22 743065 20070411040634
+69.125.156.71 2 5 116759 20070402151225
+64.12.116.210 0 4 195489 
+216.231.133.73 2 5 116759 20070423195417
+71.172.24.109 5 11 210485 20070409084645
+195.93.21.8 2 2 9870 20070429081647
+68.39.242.54 2 5 116759 20070430175305
+12.144.36.2 12 24 704757 20070429062517
+68.38.150.216 11 27 811027 20070401185747
+205.214.61.30 8 17 239559 20070419055642
+209.19.2.162 5 10 632836 20070423124032
+71.172.51.12 5 22 375923 20070405095556
+67.82.224.52 4 9 285877 20070402171040
+69.0.63.132 2 5 116759 20070401155107
+138.89.184.64 4 22 347708 20070416180845
+24.225.215.208 6 12 379603 20070423091602
+151.198.7.36 4 21 343155 20070402113255
+69.249.48.118 8 16 420970 20070423053219
+68.197.176.120 4 8 210485 20070407132345
+204.246.129.196 7 7 75601 20070416143335
+66.77.142.55 10 38 909536 20070420135501
+74.71.132.145 4 8 210485 20070415223153
+209.158.165.254 2 5 116759 20070405094820
+69.142.222.28 22 39 1792008 20070427180649
+69.208.137.219 2 9 198269 20070416194844
+192.223.243.5 11 23 294000 20070416130820
+69.142.13.213 4 21 343155 20070417171317
+70.18.166.110 2 5 116759 20070418191456
+152.163.101.14 0 1 43 
+38.98.19.77 1 1 10213 20070425161641
+4.186.51.76 3 15 162397 20070415130638
+67.85.116.35 6 12 398464 20070416123912
+12.26.44.32 6 12 379603 20070416131003
+152.163.100.139 0 6 40908 
+71.251.139.167 4 9 285877 20070422132531
+68.37.198.39 4 21 343155 20070416085248
+68.239.189.11 6 20 467577 20070423130143
+80.121.188.166 1 1 32768 20070411033253
+207.68.174.96 1 1 19193 20070422092010
+69.249.87.67 4 8 210485 20070428090800
+148.177.1.213 4 8 165166 20070405055705
+208.177.34.117 2 5 0 20070416101515
+24.0.88.248 4 8 210485 20070403071523
+207.7.166.232 23 24 262008 20070419164836
+68.193.75.110 4 21 343155 20070421072302
+24.225.191.77 2 5 116759 20070401134259
+24.154.94.14 2 5 116759 20070412092338
+69.249.73.6 4 8 210485 20070416103332
+159.226.26.98 2 2 20426 20070428151945
+152.163.100.210 0 1 65163 
+68.45.26.97 16 53 477790 20070407075804
+72.88.208.235 2 5 116759 20070429091502
+67.82.101.244 10 20 412371 20070428130150
+64.12.117.11 3 3 39801 20070418152053
+70.111.187.190 5 10 251347 20070428203445
+141.153.151.35 10 22 561708 20070404120923
+160.93.66.215 6 12 325154 20070404110450
+72.165.7.225 4 21 343155 20070430091836
+69.249.50.189 9 24 616514 20070411100302
+24.225.241.127 6 12 379603 20070410070447
+66.47.124.30 6 23 454362 20070412081002
+207.36.16.253 1 1 9870 20070417045908
+64.253.39.237 4 8 210485 20070413110023
+70.21.245.109 6 25 493611 20070415160053
+70.91.10.234 2 5 116759 20070412100707
+69.142.187.223 4 8 210485 20070420114113
+152.138.229.93 17 33 1366959 20070405090157
+159.10.4.170 2 5 116759 20070424101749
+69.142.10.48 8 25 460230 20070419183417
+72.72.19.148 2 9 198269 20070413032852
+69.204.222.254 22 66 563923 20070412072917
+72.90.245.231 2 5 116759 20070407080225
+63.86.248.32 17 50 1426310 20070416143357
+67.89.60.102 2 19 207537 20070419080014
+38.117.162.66 9 18 289005 20070413074451
+138.89.60.163 6 19 467577 20070409232435
+66.10.119.98 4 8 210485 20070418094437
+64.132.122.12 4 8 210485 20070427061412
+69.249.65.133 6 19 467577 20070412071737
+68.193.254.246 2 5 116759 20070428180917
+195.93.21.71 0 1 3359 
+207.190.215.166 4 8 210485 20070411091641
+83.54.81.223 1 1 10213 20070410103903
+12.44.229.162 23 59 1782368 20070409061915
+121.34.62.196 1 1 10213 20070425211001
+69.115.221.237 4 8 210485 20070417114334
+68.192.173.222 4 9 231428 20070429202632
+24.149.132.234 4 9 285877 20070423182054
+68.45.41.46 14 45 1260610 20070422050625
+72.88.248.27 4 19 336046 20070406094603
+192.223.243.6 28 66 4252748 20070404113110
+205.188.116.77 34 36 138449 20070429062555
+69.142.11.38 4 9 231428 20070425054220
+67.83.159.94 4 10 210485 20070421052852
+69.253.66.154 9 18 389816 20070413052754
+24.0.202.134 8 29 662729 20070416145222
+72.68.126.133 10 47 493611 20070412135625
+64.12.116.76 9 12 110748 20070424131256
+152.163.100.130 3 6 247088 20070428071908
+68.36.47.12 7 13 3052978 20070430135216
+63.139.153.146 6 19 467577 20070417085559
+68.39.70.211 4 15 410100 20070415105140
+70.111.171.5 6 12 325154 20070427130743
+121.34.178.44 1 1 10213 20070423002620
+72.88.219.64 2 5 116759 20070411162940
+128.235.249.80 4 10 233518 20070424143125
+69.249.95.236 5 9 220698 20070428123836
+67.81.255.192 2 5 116759 20070411184533
+68.193.68.18 13 26 487913 20070408161034
+69.15.58.74 4 8 210485 20070412110503
+24.187.159.247 18 51 1320601 20070403030119
+68.81.222.26 4 8 210485 20070420075225
+74.124.192.56 2 2 20186 20070429202432
+24.0.42.110 16 34 400546 20070422141046
+138.89.94.242 4 8 210485 20070414094159
+24.187.90.61 15 32 831617 20070430051308
+72.76.19.193 6 25 493611 20070403100720
+70.85.114.58 3 3 30639 20070427162649
+72.76.19.200 2 5 116759 20070423115520
+69.115.220.237 4 8 210485 20070422040738
+64.12.116.20 2 2 19740 20070424131345
+69.249.69.159 20 52 1404988 20070408163323
+63.116.190.132 2 2 0 20070425132513
+12.18.63.165 4 8 210485 20070423114531
+68.228.149.94 2 12 196486 20070420114745
+67.81.172.157 10 21 702445 20070404070858
+205.188.116.19 0 4 101328 
+69.141.247.97 4 8 210485 20070428051809
+64.12.116.134 0 2 2610 
+69.142.211.68 6 13 400546 20070413161612
+81.240.96.234 6 6 182815 20070407092339
+209.221.90.204 2 9 198269 20070404095945
+68.39.101.33 1 1 11111 20070418143735
+65.243.68.237 4 22 347708 20070409074720
+206.212.89.240 16 42 2004529 20070418120426
+68.197.186.229 2 4 97651 20070405145106
+67.85.117.203 19 68 1485816 20070412111532
+38.119.202.69 4 9 251012 20070404110859
+68.239.210.92 9 18 510464 20070413151709
+198.169.188.227 6 13 381884 20070411084835
+208.115.201.227 2 5 116759 20070415161138
+72.88.208.19 6 13 372165 20070412152528
+24.187.154.98 4 21 343155 20070418095431
+67.83.159.201 2 5 116759 20070424053644
+69.249.61.90 4 9 284237 20070422084834
+69.248.193.211 5 10 318645 20070425105836
+12.160.185.130 2 5 116759 20070419084942
+24.186.84.98 4 9 216464 20070416125429
+67.82.62.126 7 14 410759 20070404064041
+69.244.116.30 6 14 257496 20070407134019
+24.225.128.184 6 19 467577 20070414181356
+68.38.254.69 2 5 116759 20070424132359
+71.250.10.116 21 48 1525392 20070430193647
+24.0.110.162 2 5 116759 20070418122735
+151.198.115.29 8 22 563923 20070413053445
+38.99.203.110 29 33 348801 20070402170640
+138.89.64.100 5 10 1203381 20070406152934
+69.115.221.0 2 5 116759 20070417181833
+65.217.244.3 8 17 568024 20070409132742
+152.163.100.68 0 1 2344 
+69.142.252.150 6 13 407952 20070406103144
+69.249.69.128 7 20 589431 20070415092601
+69.249.43.86 4 9 284237 20070421044839
+72.68.27.205 8 31 436881 20070402122538
+66.252.191.90 15 30 1498559 20070404051540
+69.125.177.123 12 38 874263 20070413171142
+75.61.122.67 4 12 157286 20070410154254
+68.197.147.151 2 5 116759 20070422140613
+198.4.159.6 4 23 408691 20070416101742
+70.111.163.16 3 7 213152 20070430111803
+72.152.118.126 2 5 116759 20070418135503
+160.83.73.7 0 1 3359 
+69.142.23.147 8 17 310190 20070419184839
+216.113.231.74 4 10 0 20070412135447
+64.12.186.202 25 48 1992946 20070428124719
+68.36.14.1 4 16 309774 20070405154022
+24.187.163.230 13 33 871578 20070429051103
+68.192.181.251 2 5 116759 20070408174254
+70.18.173.49 4 11 267215 20070428082010
+199.172.245.45 7 14 487329 20070420185200
+72.76.85.241 6 18 503826 20070409134712
+71.250.128.44 4 21 343155 20070407092611
+199.67.138.154 4 21 343155 20070410065816
+167.203.158.142 2 3 85124 20070409063457
+66.33.244.50 26 84 2564177 20070404131848
+71.187.148.59 5 10 2959252 20070425103418
+71.200.45.106 6 12 374267 20070413112107
+12.76.4.50 2 5 116759 20070411193433
+68.239.253.232 4 8 210485 20070413074917
+207.200.116.9 0 1 1872 
+68.197.180.136 2 5 116759 20070424102545
+70.21.134.44 6 12 360941 20070412132141
+151.191.175.220 14 20 3052978 20070405053408
+76.1.248.36 2 5 116759 20070427074250
+64.233.166.136 8 11 397916 20070417082308
+68.38.85.200 6 25 512273 20070414190610
+152.163.100.207 0 4 36144 
+64.12.117.16 2 2 25416 20070430195750
+66.194.6.91 1 1 10213 20070418051901
+67.81.170.120 2 5 116759 20070407065426
+121.34.63.96 1 1 10213 20070424193654
+70.21.132.184 2 5 116759 20070429192828
+68.193.0.249 10 20 705151 20070402174615
+74.52.245.146 2 2 20426 20070416155817
+71.216.205.161 1 4 47692 20070404162725
+208.252.11.126 1 1 10213 20070409053345
+152.163.100.75 3 13 298757 20070416094631
+69.214.252.193 5 5 51065 20070412030458
+141.150.87.143 10 21 840937 20070411103818
+24.225.129.173 6 11 1083393 20070427070528
+71.187.92.93 6 24 436881 20070428062911
+198.54.202.226 2 5 174588 20070423115556
+170.148.92.22 8 34 748024 20070403113339
+24.225.135.112 9 34 792284 20070428052909
+208.115.202.163 12 43 992556 20070407054739
+71.242.179.178 12 31 934345 20070417074710
+72.68.64.25 5 10 351413 20070430040744
+208.17.215.235 4 8 10213 20070423080628
+69.115.161.41 6 18 503826 20070416172454
+155.201.35.50 14 58 959568 20070429130614
+67.131.135.30 9 18 770659 20070409101102
+66.98.99.155 4 8 210485 20070405093309
+66.194.6.78 2 2 20426 20070425122905
+208.27.111.121 4 21 343155 20070420055049
+68.37.35.6 4 17 416930 20070416110322
+67.81.169.197 4 8 210485 20070413142545
+64.19.184.114 8 28 587337 20070405133451
+63.139.153.154 13 31 785523 20070404062611
+69.242.5.44 4 8 210485 20070422164811
+205.188.116.199 0 10 734486 
+70.21.238.212 12 38 571516 20070406121739
+205.246.19.76 10 19 819493 20070411153312
+152.163.101.11 2 3 108397 20070428071915
+24.187.162.66 4 8 210485 20070428053650
+72.76.240.206 4 19 336046 20070413125800
+57.80.136.6 17 40 1298867 20070405183917
+70.111.152.180 4 21 343155 20070414180531
+209.212.28.166 4 8 210485 20070423144716
+160.83.73.15 2 3 85124 20070403141615
+216.99.245.144 7 20 410100 20070427201410
+68.37.72.242 2 5 116759 20070409081758
+68.38.165.230 16 53 842910 20070406204151
+64.12.116.209 2 5 105254 20070415160408
+67.84.99.157 8 33 800733 20070430123613
+70.21.153.131 4 21 343155 20070401142340
+76.98.59.9 6 11 304665 20070419122720
+208.125.5.130 4 9 210485 20070430094759
+64.34.145.200 1 1 10213 20070419165551
+68.239.212.31 4 19 337165 20070404150233
+198.54.202.218 0 1 2338 
+70.21.183.141 4 21 343155 20070401182811
+24.187.45.158 13 37 876001 20070401145352
+24.225.138.23 4 8 210485 20070416041938
+24.149.163.198 4 8 210485 20070407081903
+165.254.210.2 4 22 383682 20070429142154
+208.115.204.146 18 45 1164521 20070415093643
+207.237.251.88 14 31 850633 20070408050137
+68.193.102.82 4 8 210485 20070428075010
+68.36.186.188 4 21 343155 20070411134248
+74.68.9.62 2 2 38472 20070417061906
+67.83.152.231 8 20 420970 20070417115511
+64.239.7.216 1 1 15903 20070415004916
+69.10.145.151 4 8 210485 20070424075121
+68.162.18.200 2 7 133195 20070416190040
+65.215.52.254 14 34 1127919 20070428102549
+24.187.138.12 12 29 909357 20070425044310
+69.244.103.116 4 8 210485 20070412092416
+71.172.51.184 4 8 210485 20070413122841
+167.206.189.3 6 19 467577 20070409053414
+71.251.192.129 5 11 277921 20070420050150
+141.153.182.177 2 2 122318 20070430091353
+72.88.190.79 4 21 343155 20070425055031
+69.248.203.214 2 5 116759 20070411054327
+4.250.183.178 5 10 613557 20070418040707
+68.45.47.37 4 8 210485 20070418083750
+75.48.243.182 2 5 116759 20070411090659
+193.95.154.69 4 10 233518 20070422162914
+67.82.99.17 8 30 410100 20070404203848
+67.81.169.253 2 5 116759 20070424154401
+69.249.45.235 2 5 116759 20070421141427
+68.162.56.92 7 14 395811 20070409112849
+70.19.56.198 4 9 285877 20070409104544
+71.198.93.253 2 5 87929 20070401181057
+216.182.31.20 8 16 420970 20070418105444
+64.12.116.10 5 7 75541 20070419164058
+68.197.182.19 4 15 410100 20070423054706
+75.199.85.230 2 5 116759 20070422170126
+205.188.116.135 1 1 19193 20070407070707
+69.116.57.40 2 5 116759 20070415084009
+69.249.90.119 14 43 757789 20070423133117
+68.38.25.115 3 8 143408 20070409163055
+151.138.3.25 18 18 183834 20070429171927
+209.137.189.90 8 17 541283 20070402141645
+152.163.100.198 26 26 163408 20070430160630
+71.250.53.187 30 97 1932450 20070425170502
+208.125.44.18 10 27 781747 20070418132411
+68.44.85.69 2 5 116759 20070412151139
+198.89.160.22 6 20 509704 20070417085212
+205.188.116.12 0 1 3471 
+68.162.41.114 16 30 695500 20070405100423
+38.113.234.181 1 1 0 20070419052359
+64.12.186.198 25 48 1992946 20070413073539
+207.99.28.254 2 5 116759 20070410094106
+69.116.59.220 2 5 116759 20070414050718
+24.228.68.194 17 41 602165 20070418131820
+205.188.116.134 0 2 2610 
+71.67.251.113 8 29 436881 20070410061910
+69.118.213.240 13 31 569164 20070416133002
+207.200.116.131 0 1 1997 
+72.90.210.34 6 24 436881 20070417115325
+68.38.211.236 12 30 932733 20070418194832
+24.15.215.176 2 6 147567 20070421173052
+199.89.80.18 4 8 210485 20070416035919
+75.194.59.219 8 26 467577 20070417045656
+71.251.222.81 6 23 560556 20070415155612
+24.228.20.121 7 26 676113 20070412101559
+71.250.112.62 4 9 285877 20070427070024
+74.92.98.230 2 5 116759 20070423102255
+67.83.154.25 4 9 267215 20070410080427
+72.76.153.31 9 17 504485 20070401062509
+71.250.154.201 5 10 1137845 20070410165330
+24.115.199.121 1 1 10213 20070421015936
+69.3.194.7 4 9 216464 20070408120707
+63.144.152.2 8 57 343155 20070405122608
+70.111.82.89 4 8 210485 20070421212225
+68.46.112.39 2 5 116759 20070410143525
+205.188.117.6 6 25 1046040 20070429062656
+64.19.149.98 7 13 412371 20070419133057
+71.68.231.22 4 21 343155 20070401092129
+196.218.178.33 1 1 11711 20070403222151
+152.163.100.145 0 1 43 
+74.1.12.242 6 19 560556 20070402100421
+24.187.80.172 1 1 10213 20070404082837
+24.225.129.126 15 44 1229953 20070409080919
+68.193.254.123 6 13 400546 20070420064909
+58.41.168.148 1 1 10213 20070421190930
+205.228.12.254 0 1 3359 
+141.150.21.162 5 11 1006773 20070430093359
+67.82.74.179 2 5 116759 20070425110254
+71.162.148.18 2 5 116759 20070405070409
+66.188.95.139 2 9 198269 20070401180008
+205.188.116.79 0 5 388270 
+66.251.99.66 2 5 116759 20070402140927
+24.168.93.22 12 33 538754 20070415075122
+67.84.158.223 2 5 116759 20070418165820
+152.163.100.136 0 2 4666 
+15.227.217.76 13 31 2171994 20070410090532
+71.172.177.113 6 13 428377 20070425084427
+71.59.86.149 4 21 326952 20070420175957
+67.83.153.219 4 8 210485 20070416044435
+71.158.208.182 5 10 1203381 20070424070529
+68.45.35.24 10 20 635009 20070428153443
+199.89.64.177 0 1 4961 
+68.192.180.121 9 17 525251 20070409063106
+63.139.225.162 26 65 2491687 20070423121314
+152.163.100.208 3 6 20777 20070416085752
+69.253.68.189 6 12 379603 20070415085608
+67.82.84.78 6 14 267215 20070407153453
+212.116.219.53 3 21 326112 20070411134451
+208.215.188.253 3 5 185013 20070403090243
+170.148.92.21 15 30 976701 20070430155905
+162.66.50.5 1 1 19193 20070425123938
+68.44.174.110 10 20 762820 20070406085706
+24.187.87.227 6 12 379603 20070406092251
+64.12.116.208 0 2 2874 
+68.45.154.19 4 10 210485 20070428070653
+68.36.193.182 8 21 485990 20070413110409
+67.80.159.190 8 16 210485 20070422053751
+64.12.186.230 2 2 104493 20070428124001
+72.166.129.178 4 9 267215 20070425102211
+71.250.115.60 2 5 116759 20070404194627
+69.217.92.99 5 9 349897 20070402120620
+66.208.239.208 16 35 1176508 20070402103033
+68.39.66.144 7 13 389816 20070410120340
+67.83.159.41 4 15 410100 20070403151449
+70.91.21.158 6 13 400546 20070418125734
+68.193.73.12 4 8 210485 20070424060305
+72.68.111.75 2 5 116759 20070425095629
+66.194.6.95 2 2 20426 20070424175105
+68.164.35.121 2 5 116759 20070417112632
+70.111.206.230 2 5 116759 20070422143409
+63.250.129.241 3 10 112639 20070412114435
+64.115.83.236 9 18 1372308 20070410060405
+72.68.64.152 6 12 379603 20070423114147
+38.100.41.113 25 38 618186 20070419003445
+69.125.49.238 2 5 116759 20070402095010
+24.225.138.221 10 24 567140 20070409173320
+72.68.32.39 4 15 410100 20070415070301
+72.68.50.93 4 10 210485 20070420124257
+69.142.25.224 2 5 116759 20070422150710
+69.249.43.220 10 20 635009 20070430145941
+68.46.131.242 10 27 855049 20070401112511
+69.249.88.131 6 12 379603 20070422122632
+66.3.237.218 4 11 257496 20070405082838
+24.45.5.125 4 8 210485 20070427085130
+62.163.12.150 1 1 10213 20070416070845
+68.193.246.249 36 121 2291409 20070429200118
+70.111.230.233 4 8 210485 20070428082846
+69.139.169.80 2 5 116759 20070419221910
+12.148.189.25 4 8 210485 20070427100702
+69.115.41.139 4 9 285443 20070427084309
+66.240.20.84 4 8 210485 20070416060103
+69.249.40.44 32 68 3065674 20070416101028
+65.115.236.2 2 13 156746 20070424115702
+72.76.1.165 8 18 267215 20070430051258
+65.222.176.123 25 43 650946 20070414040338
+69.249.53.157 8 27 514039 20070425083139
+205.149.71.236 6 13 454561 20070406045410
+70.188.157.182 4 15 410100 20070403112942
+152.163.100.141 0 4 12036 
+64.12.116.7 3 6 26945 20070430195746
+12.22.221.195 2 5 116759 20070404165455
+152.163.100.133 1 1 19625 20070421111711
+151.204.254.81 2 12 196486 20070406130809
+152.163.100.13 0 1 86787 
+24.159.249.144 4 9 285877 20070427133809
+69.41.14.13 1 1 10213 20070419203147
+68.197.173.118 6 13 400546 20070417182722
+69.249.72.196 4 21 343155 20070403160146
+208.115.205.121 6 12 374267 20070401064107
+152.163.100.204 2 20 450617 20070428071907
+24.154.161.149 4 12 363594 20070423092554
+151.198.181.14 2 5 116759 20070411093550
+216.74.175.47 4 21 343155 20070410041640
+204.180.144.235 14 50 1247897 20070423131108
+69.115.51.181 6 12 400369 20070407074227
+208.68.21.27 6 12 379603 20070418062719
+208.17.184.52 5 5 51225 20070402132047
+68.44.51.20 7 24 434308 20070417081653
+208.115.205.187 4 9 257496 20070403044133
+68.81.161.250 8 21 410100 20070427211319
+64.12.116.65 0 1 3359 
+205.188.116.65 0 2 9402 
+68.45.224.44 4 8 210485 20070407074816
+68.239.217.47 16 31 3026631 20070411064340
+12.26.12.66 6 13 392590 20070403104834
+24.0.245.6 4 10 210485 20070404102816
+170.148.92.42 12 44 967645 20070403113406
+71.127.204.48 14 39 982986 20070430131515
+162.115.236.122 4 12 44376 20070423102900
+220.160.153.56 2 5 116759 20070424012104
+216.182.45.2 11 34 766903 20070412094610
+64.12.116.11 5 5 302121 20070424131258
+209.204.126.165 5 10 296090 20070418112942
+24.225.219.115 4 8 210485 20070413074842
+76.172.253.80 8 22 563923 20070404211129
+147.31.4.47 2 5 116759 20070404124223
+74.92.94.62 4 8 210485 20070430053028
+207.200.116.134 1 1 11711 20070420052211
+72.68.108.185 2 5 116759 20070430191921
+68.192.180.194 8 57 343155 20070403044445
+69.118.169.31 25 26 322380 20070407092310
+68.192.15.236 6 13 400546 20070430122745
+65.46.80.118 21 42 1507874 20070423090935
+68.239.165.81 11 27 724592 20070406054727
+216.86.41.145 5 9 220698 20070402095255
+216.142.43.20 6 24 436881 20070416113010
+205.188.116.9 0 1 2338 
+170.63.96.108 2 12 196486 20070423120235
+167.203.158.140 2 3 93726 20070409063506
+68.196.168.17 4 21 343155 20070430062652
+67.80.231.215 2 5 116759 20070410185703
+72.89.144.226 2 5 116759 20070415150142
+199.67.140.153 0 2 31747 
+68.38.211.2 6 12 379603 20070414085750
+72.76.194.168 4 8 210485 20070416162657
+70.111.172.180 7 14 409119 20070413191720
+67.85.13.31 35 86 2638998 20070413102403
+167.230.38.116 19 54 4019819 20070430111652
+141.150.143.190 18 71 808642 20070401074140
+67.81.91.30 2 5 116759 20070401074404
+205.188.116.69 4 4 144678 20070417154600
+68.236.205.163 2 5 116759 20070409095349
+12.24.96.3 4 9 231428 20070416120025
+67.80.223.164 12 33 620585 20070430121053
+69.115.224.114 10 20 635009 20070407092417
+152.163.101.16 0 2 2842 
+152.163.100.77 0 1 74065 
+72.40.7.124 5 9 220698 20070405063707
+138.89.125.118 9 24 702231 20070427184212
+69.116.25.181 6 13 331133 20070404062251
+67.84.205.45 4 21 343155 20070405142959
+141.153.185.94 6 12 229678 20070417114039
+199.1.144.140 1 1 10213 20070418143630
+205.188.117.18 8 11 511102 20070429062719
+64.12.186.240 8 8 402308 20070428124654
+76.1.245.21 9 17 2029032 20070416162445
+64.12.116.17 11 11 714400 20070430153321
+205.188.116.202 2 8 115316 20070417154600
+69.142.22.9 8 19 591808 20070402091404
+162.115.236.119 6 13 327007 20070423102330
+66.194.6.83 2 2 20426 20070415002648
+12.119.155.106 2 5 116759 20070411101905
+68.196.112.205 4 8 210485 20070406041140
+76.98.75.224 4 15 410100 20070415083634
+70.18.169.39 6 25 511839 20070415172340
+64.19.169.14 4 8 210485 20070417121100
+72.78.108.71 4 8 210485 20070430170611
+198.45.19.39 1 2 10213 20070416042436
+68.38.253.174 1 1 10213 20070411131827
+68.196.65.83 17 37 65536 20070420200849
+70.111.75.223 6 19 467577 20070410180241
+69.248.202.200 4 15 410100 20070412075451
+70.89.40.97 12 27 1154210 20070430082319
+69.141.231.200 13 39 475777 20070415171800
+64.253.38.204 4 9 267215 20070425061753
+72.90.174.31 2 5 116759 20070428062508
+24.149.151.240 2 5 116759 20070407122542
+12.40.61.2 6 15 251347 20070411084225
+24.225.138.15 7 26 1265937 20070403074408
+12.42.51.28 12 24 684473 20070430081520
+68.45.9.129 2 5 116759 20070409185726
+64.12.116.74 3 5 135778 20070415174145
+64.32.177.234 12 30 920394 20070411121819
+67.83.152.139 6 25 493611 20070428195940
+65.213.216.154 6 19 467577 20070425070511
+72.88.232.157 6 39 343155 20070423042521
+68.193.245.63 10 32 647366 20070418105124
+69.115.67.223 4 8 210485 20070415164710
+71.172.221.45 6 12 379603 20070424194416
+68.36.86.56 10 19 528648 20070416073727
+64.12.116.132 2 5 234755 20070419164428
+66.251.40.142 2 5 116759 20070402074216
+66.43.76.51 4 15 404196 20070409094720
+67.81.168.226 2 5 116759 20070429063446
+68.38.247.188 4 9 285877 20070428170907
+67.82.47.38 5 10 318645 20070410123715
+71.125.72.84 2 5 116759 20070407063919
+68.192.189.199 2 5 116759 20070403151102
+205.188.116.132 0 3 6003 
+138.89.181.11 4 8 93726 20070430083604
+205.139.10.95 9 17 555723 20070418140929
+206.208.93.60 10 26 813681 20070430034736
+69.249.166.138 2 5 116759 20070429031635
+67.81.233.143 5 10 1039541 20070413173053
+67.85.135.238 15 29 952764 20070429122046
+68.160.74.242 4 8 210485 20070430080059
+83.56.172.216 1 1 15903 20070430152952
+72.90.7.193 4 21 343155 20070415115105
+64.12.116.5 0 5 13436 
+24.149.252.29 4 10 217315 20070403104354
+64.47.143.254 7 25 436881 20070407123533
+24.225.129.53 4 8 210485 20070421140311
+70.157.157.39 8 22 623842 20070429184333
+68.192.161.169 15 49 939715 20070423123116
+68.197.176.246 6 13 210485 20070419144004
+68.236.203.211 8 23 503826 20070409144942
+205.188.117.8 0 6 169714 
+72.76.84.170 4 8 210485 20070423171732
+69.142.252.107 9 19 410759 20070401112221
+68.193.74.81 6 13 398906 20070401091415
+68.83.63.153 7 15 1203381 20070423111447
+69.249.67.8 2 6 157286 20070410171647
+68.192.27.173 6 13 426614 20070415085510
+69.249.62.207 13 45 1033747 20070429161343
+24.225.136.241 8 22 563923 20070411155728
+170.215.255.46 22 66 1797766 20070418133553
+63.237.149.205 2 18 233226 20070430093611
+72.75.158.63 4 9 214003 20070406204206
+68.39.66.231 7 13 389816 20070414123316
+66.134.169.83 5 10 1072309 20070403064213
+64.8.224.174 1 1 2673375 20070405122821
+199.43.32.86 0 1 3471 
+69.224.77.154 2 2 20426 20070425140120
+167.203.158.141 0 2 31635 
+64.12.117.17 0 3 8424 
+67.85.154.61 2 5 116759 20070414113401
+208.115.200.131 8 27 667608 20070412131902
+207.200.116.130 0 1 3359 
+66.194.6.92 3 3 30639 20070413145625
+208.67.92.22 14 43 768865 20070420064535
+67.80.158.150 6 19 444221 20070424055627
+167.206.48.221 20 62 1682647 20070424183156
+143.127.3.10 6 10 230911 20070430065956
+64.12.117.6 12 12 1007641 20070420131947
+67.101.29.39 4 8 210485 20070407110240
+69.249.110.65 9 17 529899 20070427160452
+68.239.210.236 4 8 210485 20070423062431
+71.59.81.196 4 8 210485 20070412145629
+72.79.100.155 2 5 100556 20070401075636
+152.163.100.135 2 2 38386 20070412165015
+68.193.70.101 8 16 420970 20070414125352
+71.172.255.102 6 19 468958 20070415173345
+67.101.249.170 2 5 116759 20070409080221
+65.94.134.208 4 9 257496 20070430065416
+71.172.101.230 5 10 1203381 20070409045419
+68.38.253.91 7 19 103939 20070401053427
+69.249.59.15 8 16 549701 20070424192129
+68.192.173.249 5 10 1105077 20070410103913
+69.142.175.164 4 9 285877 20070418050706
+67.82.192.159 8 16 210485 20070410182014
+67.135.59.3 12 31 261560 20070402074546
+63.173.193.12 4 21 343155 20070403115409
+67.81.238.46 4 21 343155 20070425082621
+68.160.98.130 16 38 1038021 20070424080308
+67.82.226.187 2 5 116759 20070425100611
+69.249.92.211 7 26 2019601 20070424110638
+24.225.218.248 4 23 343155 20070420053746
+205.181.62.230 0 1 0 
+205.188.116.139 3 3 238779 20070411141353
+70.18.160.61 4 18 320262 20070404075158
+24.225.215.32 5 10 289141 20070403104137
+71.250.162.44 5 9 221596 20070429114205
+71.127.200.144 5 23 1385384 20070417093254
+68.193.72.206 6 12 351222 20070410115906
+66.251.104.82 29 63 942366 20070424111333
+68.37.173.128 10 21 210485 20070414100904
+68.175.108.44 2 5 116759 20070420040129
+64.12.116.145 0 1 1997 
+66.108.51.108 8 15 410095 20070402054404
+72.68.109.187 8 24 568133 20070417161852
+68.38.217.57 13 26 1906176 20070407133000
+69.74.70.138 10 25 657649 20070404133049
+24.187.34.182 4 8 210485 20070415062307
+68.39.71.35 2 5 116759 20070412172524
+71.250.30.136 5 10 318645 20070415112756
+75.192.79.153 2 5 116759 20070411144600
+69.125.155.136 11 29 532900 20070407150522
+141.153.196.133 4 27 354289 20070418121619
+69.116.90.62 9 23 571516 20070417052726
+24.168.40.170 2 6 157286 20070418055155
+207.69.138.143 2 5 116759 20070405051823
+68.45.63.230 4 8 210485 20070423131117
+141.153.209.7 4 9 285877 20070416130139
+68.37.55.53 0 1 3471 
+64.238.49.65 6 14 348187 20070423102531
+69.115.8.226 4 15 410100 20070405140829
+66.98.36.253 1 1 19193 20070420092949
+64.12.116.138 0 21 371931 
+64.12.116.144 0 16 207572 
+152.163.101.6 6 8 550906 20070428071859
+68.37.75.248 2 5 116759 20070428065344
+67.81.173.133 4 8 210485 20070425141221
+205.188.116.130 0 4 12360 
+205.188.116.15 1 1 71440 20070407070649
+205.188.116.138 1 2 25110 20070411141326
+64.210.196.197 2 5 116759 20070427014027
+144.211.194.117 4 8 210485 20070417075209
+75.69.176.161 4 16 293571 20070424134837
+206.126.170.20 2 6 67320 20070403105056
+204.215.185.82 2 5 78087 20070430101930
+208.115.205.189 4 9 216480 20070430170018
+69.249.85.192 8 29 436881 20070406094750
+152.163.100.138 11 11 176547 20070423195146
+68.192.180.65 4 8 210485 20070420062701
+24.225.211.216 2 5 116759 20070405150852
+205.188.116.200 1 1 50704 20070418201428
+64.34.145.196 1 1 8161 20070401020029
+72.76.151.105 2 3 93726 20070417071946
+69.249.41.160 6 13 381884 20070416073348
+72.79.41.110 2 5 116759 20070415135138
+129.44.48.26 4 8 210485 20070416112228
+67.81.219.121 8 23 678923 20070423022508
+64.12.116.206 0 4 10283 
+67.83.31.168 2 5 116759 20070423172641
+167.206.233.170 8 16 210485 20070417075843
+64.25.92.35 2 5 116759 20070416071847
+205.188.116.206 0 28 382870 
+70.111.214.90 4 9 284237 20070415070019
+69.115.224.41 10 20 4129865 20070420081049
+67.85.10.220 16 41 1174151 20070427085551
+70.198.119.80 4 9 0 20070410190926
+141.150.87.171 18 45 1384252 20070411101336
+65.217.164.237 6 13 281925 20070420170851
+167.83.101.23 4 10 210485 20070412060939
+68.38.222.181 8 29 593332 20070423185103
+69.86.184.152 6 19 467577 20070423214806
+68.44.107.18 2 5 116759 20070403195311
+64.56.47.37 14 42 1028766 20070424100754
+131.125.16.130 9 17 621371 20070425131734
+151.198.75.99 4 8 210485 20070423065828
+152.163.100.143 0 1 43 
+67.100.50.6 7 13 805587 20070428050232
+69.249.44.11 2 5 116759 20070415171239
+67.81.169.227 8 16 210485 20070422110141
+68.36.10.203 11 26 760661 20070430174504
+24.187.15.95 4 8 210485 20070407175017
+69.142.175.102 4 8 210485 20070427142232
+70.111.143.202 5 10 1039541 20070412193858
+72.88.236.206 4 9 277921 20070417070304
+71.172.98.71 2 5 116759 20070405105916
+68.196.175.42 2 5 116759 20070427190035
+208.116.156.71 6 19 467577 20070403131038
+67.80.211.234 5 9 220698 20070401053504
+71.250.137.107 22 53 2198380 20070423171348
+70.111.88.148 2 5 116759 20070417154944
+199.43.48.130 4 16 0 20070412124842
+192.128.134.68 23 68 4451979 20070430072110
+69.249.93.27 4 15 410100 20070424195852
+69.249.107.130 4 9 285877 20070401185244
+69.249.73.69 13 31 969048 20070407073112
+152.163.100.15 11 11 788120 20070428172813
+65.126.31.130 1 8 118677 20070417050600
+199.43.48.129 10 33 486781 20070403095745
+24.225.142.233 12 37 775915 20070428150225
+64.12.116.205 2 3 97863 20070419164427
+68.196.78.94 6 19 571262 20070422054727
+66.194.6.74 2 2 20426 20070406011116
+72.88.163.237 4 9 231428 20070416130727
+68.45.47.3 4 15 410100 20070427202732
+76.98.179.75 8 17 325154 20070423080536
+205.188.116.75 10 10 213943 20070429062718
+64.12.186.238 8 8 442352 20070428124237
+74.92.89.54 4 9 267215 20070411115956
+170.201.180.136 4 8 210485 20070409105849
+12.144.58.212 5 18 410100 20070405102152
+24.225.129.153 4 10 145035 20070417153051
+67.81.175.21 5 12 375090 20070415165110
+72.76.18.236 15 37 2337712 20070428211017
+68.236.220.167 4 9 231428 20070409184357
+67.80.241.29 6 14 317624 20070406115625
+68.38.87.222 4 8 210485 20070409101649
+68.36.162.161 8 17 551002 20070427162654
+71.4.174.104 2 5 116759 20070418135820
+152.163.100.197 0 4 13436 
+69.142.60.174 4 8 210485 20070406104228
+68.239.212.136 2 5 116759 20070401092419
+131.191.12.224 6 15 521397 20070408223254
+69.142.185.17 8 16 611158 20070427090545
+68.192.168.213 4 8 210485 20070407144935
+72.76.19.197 8 16 475610 20070420140301
+24.229.51.105 14 35 1759603 20070405134144
+68.197.144.103 11 27 2952772 20070417135138
+76.98.192.171 26 78 1286508 20070406120212
+69.253.95.164 4 8 210485 20070412063259
+144.81.52.96 2 5 116759 20070430092036
+71.2.34.158 4 9 285877 20070425201043
+65.125.55.122 6 14 267551 20070418123528
+66.194.6.67 4 4 40852 20070421223506
+68.196.198.13 2 5 116759 20070405082730
+74.0.9.21 8 29 653010 20070412115505
+64.21.112.125 8 17 381860 20070430131459
+24.187.122.225 9 17 504485 20070428070644
+68.166.102.246 16 35 520340 20070416084732
+70.21.129.218 4 8 210485 20070408114144
+204.50.113.28 4 9 0 20070430044835
+68.36.233.24 4 23 210485 20070423154648
+69.253.95.189 5 11 2959252 20070422161159
+66.246.248.66 8 15 3119681 20070427073038
+68.192.74.249 9 18 1417755 20070410213652
+208.252.25.30 6 11 1017857 20070427111837
+69.249.45.195 4 9 152723 20070428094907
+68.197.184.199 6 23 363581 20070410171326
+24.225.138.42 10 17 776948 20070412110120
+67.82.231.172 9 34 482981 20070408125658
+160.81.101.50 4 8 210485 20070417074201
+24.225.129.17 5 24 343155 20070422071126
+68.160.125.58 2 5 116759 20070421052705
+67.81.173.7 6 12 377963 20070425035529
+68.44.194.148 4 9 277921 20070415173144
+63.139.27.242 2 6 157286 20070404084213
+65.202.232.115 4 8 229346 20070413081515
+67.166.224.96 6 19 403500 20070402175744
+199.43.32.99 6 13 372165 20070430110846
+69.244.116.25 6 39 343155 20070416113433
+152.163.100.8 1 12 270918 20070412183723
+68.85.19.38 5 10 2959252 20070421180257
+69.115.226.217 4 9 231428 20070411192104
+71.172.49.147 5 10 289141 20070415110843
+208.208.47.100 12 26 772711 20070421180109
+24.149.179.29 4 21 343155 20070429110656
+69.115.61.248 6 11 5632627 20070427192546
+151.198.123.119 5 10 318645 20070405222909
+70.194.21.130 15 36 955873 20070410094300
+24.225.129.108 10 26 688473 20070415090515
+70.21.249.95 2 5 116759 20070412130932
+192.245.246.6 17 48 1094461 20070425122738
+68.196.235.88 4 8 210485 20070423084459
+151.190.254.108 4 15 410100 20070430043214
+205.188.116.209 0 1 28276 
+138.162.0.38 4 8 93726 20070416072405
+70.105.165.211 2 5 116759 20070406110254
+63.147.233.2 4 8 210485 20070419053212
+216.205.224.10 4 8 210485 20070430120108
+69.249.88.247 2 5 116759 20070407070952
+69.142.23.19 2 5 116759 20070412074116
+67.81.90.244 14 42 579716 20070422065519
+71.187.3.40 2 5 116759 20070404063015
+67.84.91.166 12 21 1414578 20070402070048
+68.192.253.159 2 5 116759 20070427160502
+69.248.149.121 20 49 751854 20070425140129
+68.83.168.9 7 25 447094 20070415062320
+71.251.196.77 4 8 210485 20070411134615
+68.193.76.164 4 8 210485 20070401063534
+152.163.101.15 4 7 127487 20070428172855
+216.139.224.70 1 3 17043 20070406051820
+24.187.172.193 7 14 446546 20070430052801
+24.115.50.117 6 13 376387 20070408140012
+198.54.202.214 0 1 2709 
+198.23.5.10 4 9 277921 20070411095852
+72.79.61.128 11 23 759824 20070427075308
+152.163.100.6 4 5 321763 20070428071903
+208.115.204.125 4 8 210485 20070423105623
+69.142.9.226 4 21 343155 20070416184616
+205.228.12.194 2 4 159584 20070412084623
+207.200.116.135 0 1 28276 
+68.36.15.196 2 5 116759 20070417171544
+67.81.203.253 17 46 855910 20070405210420
+71.187.53.80 2 5 116759 20070419163657
+24.187.121.251 4 8 210485 20070407111211
+64.34.145.198 1 1 10213 20070402161912
+12.179.192.89 4 8 210485 20070427095910
+70.198.53.25 1 1 10213 20070417121529
+24.225.140.67 8 15 556107 20070403131952
+24.225.134.209 16 33 730825 20070420071752
+205.188.116.67 0 2 9106 
+65.12.232.129 3 11 355394 20070409140504
+70.21.177.203 4 9 285877 20070425081139
+66.188.93.230 2 12 196486 20070422190624
+70.111.113.37 2 5 116759 20070424100611
+71.172.147.92 7 20 531857 20070410180624
+65.214.39.180 8 20 467036 20070429004206
+68.237.111.12 10 43 691318 20070419112013
+152.163.101.7 0 1 2602 
+66.149.39.105 4 9 285877 20070412093340
+64.12.117.15 0 4 58922 
+64.12.117.13 0 1 4701 
+162.83.164.29 7 13 338713 20070427062748
+205.228.12.236 1 2 75288 20070412084624
+69.253.95.157 4 21 343155 20070425155345
+24.12.164.108 8 46 493186 20070408200107
+69.249.88.75 8 17 379603 20070414082501
+24.187.162.38 2 5 116759 20070429122036
+152.163.101.19 1 4 12512 20070409170438
+158.57.150.68 5 10 318645 20070408112816
+64.12.117.19 0 2 2842 
+76.98.61.22 18 41 1535476 20070424081129
+68.193.102.10 2 5 113288 20070424112120
+205.188.116.5 2 3 110671 20070411141318
+71.79.183.164 4 8 210485 20070409192108
+198.151.41.204 7 15 354308 20070413073024
+206.210.17.33 4 8 210485 20070424034703
+66.194.6.72 2 2 20426 20070425204755
+24.5.117.234 15 42 1248316 20070415213125
+64.12.116.136 4 6 317970 20070419164137
+67.81.189.5 6 13 448557 20070430125438
+68.39.67.51 8 27 653980 20070427165152
+139.18.2.81 1 1 7949 20070423030323
+67.83.155.156 2 5 116759 20070420073114
+69.139.171.238 15 29 1241236 20070430201651
+67.165.1.83 6 19 467577 20070421182253
+66.152.218.225 7 13 453459 20070413113242
+67.82.63.200 13 30 997552 20070421062226
+68.236.194.213 2 5 100556 20070419060542
+71.127.215.246 4 9 285877 20070409201356
+198.54.202.250 1 2 171159 20070423115729
+167.156.63.253 4 8 210485 20070425085548
+72.68.92.132 4 8 71725 20070418092807
+198.177.2.15 4 8 210485 20070425065911
+192.193.221.144 10 32 720668 20070404095442
+196.3.51.241 5 10 2959252 20070412082021
+167.127.104.11 4 8 210485 20070403094709
+68.192.5.61 4 21 343155 20070413102732
+152.163.101.13 0 3 4107 
+69.248.135.232 10 20 719852 20070407134927
+72.79.29.32 7 13 453459 20070407091233
+206.15.101.44 7 14 393935 20070413063415
+76.1.245.86 6 29 631615 20070414071821
+12.172.250.196 1 1 10213 20070407171124
+68.239.132.210 4 8 210485 20070417060804
+12.76.5.204 5 9 243253 20070424095602
+68.193.240.194 4 9 231428 20070415190540
+69.116.171.113 7 14 40632246 20070414064907
+72.68.42.126 2 5 116759 20070401112859
+151.198.149.29 6 11 275870 20070411065354
+67.81.240.114 1 3 41960 20070429162700
+69.86.233.195 5 10 1255233 20070410135528
+68.38.87.227 4 8 210485 20070406102042
+162.115.236.121 7 18 370639 20070423102902
+170.148.10.43 4 15 410100 20070402102915
+24.187.161.128 4 22 383682 20070428101121
+207.96.147.114 2 5 116759 20070416133930
+68.196.32.235 4 15 410100 20070430150712
+68.193.122.87 6 13 400546 20070408095624
+151.202.84.4 4 8 210485 20070409112229
+209.191.144.11 9 17 431183 20070425054613
+68.38.254.44 4 9 285877 20070422033516
+12.4.26.248 2 5 125452 20070419133150
+67.141.81.90 9 23 571516 20070404143538
+68.193.97.188 4 8 210485 20070401072700
+69.141.100.242 4 8 210485 20070412123845
+207.19.62.200 5 10 219859 20070417091805
+68.196.202.232 26 80 2438726 20070424192238
+72.14.194.32 1 4 95041 20070402023018
+69.142.234.121 9 17 523346 20070402124348
+68.36.248.17 7 14 1278582 20070417201229
+71.172.92.105 2 5 116759 20070422162423
+141.150.39.177 4 8 210485 20070412095328
+68.39.68.235 1 1 111207 20070430043509
+68.196.164.127 2 5 116759 20070422101947
+67.101.79.67 2 5 116759 20070409074021
+167.206.72.210 8 33 288460 20070402080428
+68.196.167.82 9 21 379603 20070424193739
+68.197.142.150 7 13 3052978 20070417134513
+144.29.1.16 4 8 210485 20070405082206
+66.88.73.142 21 54 1418657 20070416104532
+155.170.83.211 2 5 55532 20070401070335
+65.78.90.160 4 9 285877 20070415132458
+12.104.134.3 5 9 229678 20070416141948
+208.252.0.1 4 8 210485 20070427082312
+24.225.213.62 8 19 360941 20070408100225
+69.141.112.66 4 21 343155 20070417164920
+152.163.100.73 2 4 166928 20070416085753
+208.101.162.115 7 13 464000 20070424210659
+64.12.116.142 1 6 9354 20070424132030
+68.193.255.236 4 8 210485 20070422075900
+64.124.85.75 3 3 34005 20070412115921
+68.38.184.159 9 17 504485 20070405135400
+74.73.126.183 4 9 285877 20070425130928
+68.37.189.134 2 5 116759 20070414040951
+68.192.167.12 7 12 245155 20070406071751
+68.197.153.203 4 8 210485 20070429105309
+72.84.241.223 4 8 210485 20070414202444
+68.45.213.118 5 10 226677 20070408205745
+69.249.84.181 7 26 524981 20070403081917
+68.84.127.157 9 16 478206 20070412163806
+72.79.105.134 10 48 533039 20070403185950
+209.191.246.3 4 10 0 20070423014933
+71.244.96.37 19 58 1237910 20070405134357
+205.188.116.197 8 16 160486 20070428133650
+64.12.116.199 2 4 213864 20070419164334
+66.194.6.79 1 1 10213 20070427002146
+205.188.116.136 6 9 92064 20070429062655
+198.23.5.11 4 21 343155 20070424075839
+24.115.162.182 12 37 772629 20070412195730
+70.20.189.179 9 23 40845524 20070425212543
+71.255.83.67 2 5 116759 20070404152609
+64.124.122.228 2 5 55532 20070409135927
+12.28.215.200 6 18 503826 20070423054933
+66.194.6.81 2 2 20426 20070421041855
+205.188.116.13 1 1 71725 20070407070709
+69.249.63.207 2 5 116759 20070409155654
+12.205.135.32 10 26 678592 20070404120903
+199.67.140.83 8 16 535779 20070430092212
+67.83.156.180 9 20 632012 20070424105327
+141.153.170.243 4 15 410100 20070410182014
+64.12.116.70 0 1 77236 
+69.110.23.232 2 2 20426 20070408141428
+201.32.144.150 1 1 11711 20070418141423
+69.142.28.85 4 9 257496 20070415171445
+69.212.230.29 4 8 210485 20070407091646
+68.38.85.113 3 6 126972 20070411204124
+152.163.100.66 0 4 95750 
+67.84.116.181 16 36 580372 20070423064935
+68.44.18.124 2 5 116759 20070419193306
+24.225.164.75 10 21 575451 20070429154426
+70.111.240.159 2 6 157286 20070406123353
+70.21.177.57 4 15 410100 20070405125822
+12.193.102.46 5 10 289141 20070418080622
+71.172.51.246 8 33 782071 20070424112018
+68.38.84.88 4 9 285877 20070419111529
+12.135.35.35 4 8 210485 20070402083341
+68.81.235.248 5 10 416949 20070403210731
+141.150.141.221 4 9 267215 20070427065335
+69.248.193.103 2 5 116759 20070428113302
+69.115.163.152 21 41 323318 20070405094337
+152.163.100.67 2 4 137462 20070428172856
+68.63.93.120 9 30 738971 20070419181440
+67.85.163.226 4 8 210485 20070427080512
+198.240.130.75 6 41 508616 20070420131135
+130.219.235.253 9 34 663117 20070420060248
+68.196.175.140 4 8 210485 20070424055926
+72.76.27.181 4 8 210485 20070422033947
+205.179.171.8 34 82 2014030 20070405070455
+129.85.49.84 2 5 116759 20070409071646
+205.188.116.207 0 20 40512 
+72.79.65.94 5 10 318645 20070421195216
+66.133.166.141 4 8 210485 20070413083430
+68.197.10.73 14 51 888901 20070427162151
+199.64.0.252 10 36 757937 20070430100114
+69.142.9.248 4 9 216464 20070412043229
+71.250.191.252 30 78 2733014 20070415153655
+68.36.15.36 6 13 288377 20070418045229
+65.201.255.52 4 8 210485 20070423055637
+162.66.50.3 0 2 31747 
+141.154.252.211 4 17 350301 20070404131811
+204.146.164.146 3 6 196913 20070403095027
+67.85.15.128 4 8 210485 20070412084549
+195.93.21.39 0 1 25332 
+68.193.253.25 8 30 410100 20070407062202
+68.192.158.60 6 12 360941 20070428073029
+24.187.48.50 6 24 436881 20070418063946
+68.239.228.152 5 10 1072309 20070411140734
+65.210.205.254 8 33 746284 20070410222213
+209.48.27.162 7 14 252627 20070425062904
+70.198.58.145 0 1 2808 
+75.57.100.164 2 12 196486 20070425141217
+24.187.107.135 4 15 410100 20070411081848
+71.255.87.236 4 8 210485 20070422052645
+72.76.32.179 6 13 392590 20070423082101
+68.39.16.169 11 27 1322865 20070411173707
+71.250.115.252 11 43 537932 20070416125420
+69.248.124.179 4 8 210485 20070407102233
+67.34.17.200 4 11 210485 20070402093219
+67.83.59.62 5 10 1170613 20070402185138
+68.38.248.11 4 9 285877 20070427141625
+207.200.116.13 0 1 81863 
+69.248.224.134 8 16 420970 20070430102006
+24.7.105.97 2 12 196486 20070415211925
+71.187.49.127 6 12 443246 20070430193315
+68.63.92.185 6 22 467577 20070421163100
+67.82.245.17 26 32 509291 20070427065503
+64.12.116.13 3 3 57579 20070415160412
+24.225.209.60 6 13 453355 20070427110111
+68.36.6.198 14 44 1159584 20070409185042
+69.249.66.30 2 5 116759 20070429103737
+131.107.0.96 1 3 17043 20070428114343
+152.163.100.202 1 5 22175 20070409170235
+158.35.225.230 4 8 210485 20070406095757
+71.125.82.217 10 26 694833 20070405112349
+68.192.156.54 6 13 400546 20070425164250
+67.101.28.69 4 9 285877 20070405113636
+76.98.67.160 2 5 116759 20070416112819
+70.111.54.243 4 8 210485 20070404063328
+64.242.169.12 5 42 307289 20070404200409
+151.198.136.19 4 21 343155 20070413091934
+125.127.218.63 4 10 210485 20070425000546
+67.135.245.66 5 9 220698 20070406064412
+152.163.101.9 14 18 1009552 20070427223738
+66.194.6.97 4 4 40852 20070430184518
+207.69.138.137 1 4 45319 20070412174315
+64.9.14.2 7 13 335367 20070406095700
+68.45.35.8 6 15 219379 20070416043201
+216.9.250.6 4 21 261197 20070410162156
+67.80.129.141 5 11 318645 20070413194500
+63.139.225.146 12 37 823475 20070418092648
+68.196.172.37 8 30 820200 20070425043248
+68.38.81.119 4 21 343155 20070401093643
+12.26.52.242 12 25 561707 20070411064614
+68.192.185.35 6 13 303199 20070428073420
+63.166.105.113 4 8 210485 20070419133026
+74.94.19.153 19 68 691395 20070430070426
+67.83.129.148 12 29 901249 20070425075942
+64.233.173.77 2 4 99568 20070420080457
+128.122.253.196 6 13 426614 20070418140000
+64.12.116.202 3 3 31356 20070425034944
+70.111.181.10 4 9 231428 20070425210445
+67.151.188.186 4 9 231428 20070420121238
+69.249.87.21 16 55 493611 20070420204508
+68.38.250.254 4 15 410100 20070422064425
+68.38.221.212 4 8 0 20070401085201
+69.249.54.17 2 5 116759 20070411123547
+71.241.248.7 12 26 926819 20070417112033
+64.12.116.73 1 4 87721 20070419153836
+67.81.172.78 39 182 2171541 20070419044337
+207.10.35.10 14 40 672944 20070416102055
+24.225.128.193 10 20 593977 20070421165427
+199.89.64.178 1 4 106546 20070410102053
+68.197.163.219 5 10 1072309 20070417093909
+71.172.92.79 4 9 210485 20070415100204
+68.192.174.233 12 28 758613 20070415124429
+205.181.102.120 25 95 4299974 20070427123727
+68.196.65.126 5 11 318645 20070410184709
+68.42.3.218 6 13 285877 20070430133458
+71.250.235.71 4 8 210485 20070423065937
+204.8.195.146 4 8 210485 20070404091638
+138.89.131.166 30 79 2152919 20070423123004
+67.84.171.12 2 5 116759 20070407202840
+68.236.193.49 6 19 467577 20070402100303
+69.142.3.147 20 40 671963 20070409202157
+67.80.210.102 4 15 410100 20070409132126
+70.17.34.100 4 9 285877 20070421175508
+68.166.72.104 4 9 257496 20070416133216
+70.91.21.190 17 47 107582 20070409072502
+72.76.32.88 12 27 681636 20070409161018
+138.89.86.101 9 23 572172 20070429174304
+24.0.241.88 6 12 374267 20070407065649
+74.94.15.145 7 13 477907 20070418113739
+209.172.35.92 1 1 10213 20070402222608
+151.198.202.246 2 7 65431 20070427113122
+76.6.32.39 8 16 420970 20070419175206
+68.193.253.11 4 8 210485 20070416101608
+68.39.226.91 4 9 285877 20070429075451
+152.163.101.10 0 1 2602 
+138.89.2.122 2 5 116759 20070421063012
+216.169.212.221 7 16 0 20070411071630
+24.187.164.215 5 10 318645 20070427083007
+71.172.132.95 13 25 731016 20070406180038
+69.253.153.102 6 25 512273 20070427190527
+68.46.38.201 10 36 847037 20070415114537
+69.249.40.83 8 37 343155 20070408151855
+68.192.24.101 6 24 436881 20070430145753
+70.18.168.114 16 46 672944 20070416191644
+67.81.169.202 5 10 318645 20070414071512
+216.132.121.167 4 9 196738 20070410082923
+12.110.136.92 3 8 0 20070425210641
+69.249.59.218 4 10 210485 20070411061039
+24.187.124.151 4 8 210485 20070419123919
+68.36.126.20 4 9 285877 20070425134652
+152.163.100.76 0 3 14883 
+68.239.199.210 4 8 210485 20070412101120
+216.93.129.5 8 20 351903 20070424090634
+67.85.167.90 2 5 116759 20070420120406
+208.64.109.126 4 9 251012 20070403092118
+24.225.232.195 2 5 116759 20070424120050
+68.44.43.71 7 16 2959252 20070419080922
+12.24.119.41 8 16 210485 20070424134052
+208.213.209.82 11 23 335367 20070403113635
+64.118.93.212 1 1 10213 20070428054218
+71.172.86.69 4 8 210485 20070408081924
+64.12.116.8 33 33 120576 20070430153319
+69.142.20.131 10 34 818916 20070428153254
+68.197.162.253 2 5 116759 20070408060504
+199.67.138.153 6 15 407199 20070413061246
+67.82.25.197 24 69 1170104 20070411131806
+64.12.116.133 0 1 81863 
+64.12.186.242 2 2 122280 20070428124342
+199.4.20.2 10 37 919931 20070419092842
+68.192.188.98 6 19 467577 20070403181032
+24.228.70.204 8 16 557915 20070427142103
+67.85.166.185 4 9 285877 20070425104713
+71.242.221.31 6 13 400546 20070422174946
+64.34.145.199 4 4 38451 20070403122334
+72.90.2.116 6 13 426614 20070422071925
+206.137.18.195 12 42 1131394 20070427102404
+71.224.230.63 4 9 285877 20070421174618
+67.83.127.190 2 5 116759 20070419044532
+81.144.182.250 1 4 45319 20070415033218
+192.128.166.68 6 13 436333 20070430082819
+208.253.148.2 4 9 285877 20070404093732
+71.53.29.56 2 5 116759 20070420091627
+68.38.239.237 6 19 550837 20070411181029
+152.163.101.20 0 18 40716 
+68.193.122.146 6 19 467577 20070415075901
+71.127.203.89 4 21 343155 20070411114844
+58.173.100.5 8 16 447504 20070401200919
+12.130.3.100 21 51 1221871 20070420111345
+69.249.66.198 5 10 318645 20070422165150
+67.85.2.54 15 33 2076841 20070405161612
+140.98.210.243 4 8 210485 20070420185227
+63.116.132.130 3 6 126972 20070418081813
+12.155.219.1 3 6 126972 20070420064712
+71.251.212.172 10 26 547114 20070421110349
+69.249.68.87 8 30 436881 20070410085600
+206.218.218.57 8 17 594092 20070402100639
+67.85.133.85 2 19 191049 20070423064122
+71.167.29.220 4 8 210485 20070418065000
+68.44.193.179 4 21 343155 20070430115148
+205.188.116.71 5 7 1806379 20070428133658
+216.169.212.27 4 10 0 20070409110234
+141.153.210.45 2 5 116759 20070408160854
+152.163.100.206 2 20 250092 20070418090833
+68.193.161.206 8 29 654773 20070410144854
+68.37.62.12 5 10 384181 20070410065304
+152.163.100.199 0 2 2058424 
+64.12.116.196 0 1 25332 
+216.6.150.93 7 13 1088889 20070416131255
+74.92.53.193 1 6 51204 20070430041833
+69.22.246.104 1 4 45319 20070424074558
+63.162.100.212 4 22 402344 20070412120138
+66.153.1.132 11 26 610854 20070423121907
+152.163.100.71 0 1 1758621 
+71.250.40.167 12 24 1188477 20070406211611
+72.244.136.10 9 20 600173 20070424140748
+70.111.243.218 2 5 116759 20070413100840
+68.193.29.69 7 13 389816 20070413085033
+67.82.197.62 4 21 343155 20070419193639
+64.12.116.79 0 6 313966 
+24.149.131.91 2 5 116759 20070410155329
+68.45.207.16 2 5 100556 20070430131959
+212.227.83.83 1 1 10213 20070403064144
+24.187.104.114 4 8 210485 20070403103403
+68.197.152.38 4 8 210485 20070424052338
+208.118.0.191 4 8 210485 20070404055010
+67.83.159.51 2 5 116759 20070420094042
+195.29.49.210 5 9 261376 20070416080325
+192.4.209.5 6 9 193531 20070417100607
+71.250.4.37 2 5 116759 20070405095037
+67.151.93.50 4 9 216480 20070403081747
+24.225.202.80 9 19 1039541 20070408155546
+68.36.87.3 8 22 561303 20070405032307
+68.193.252.67 12 25 859453 20070429065440
+68.193.79.19 4 9 267215 20070427162920
+24.187.173.3 14 22 496143 20070420195301
+208.54.95.1 8 42 343155 20070409102246
+205.188.117.7 2 4 19251 20070409190421
+68.37.228.2 6 18 503826 20070423104707
+67.80.220.21 9 15 488120 20070421093558
+24.149.159.87 6 14 402636 20070415171046
+69.142.177.14 4 8 210485 20070414090941
+64.5.245.50 3 3 29780 20070405211438
+67.80.184.57 4 8 210485 20070415185805
+24.149.187.230 6 13 210485 20070416115821
+69.249.120.211 16 86 512273 20070401173153
+141.150.7.34 1 4 45319 20070424131327
+24.228.41.172 2 5 116759 20070406062921
+167.211.190.2 2 5 116759 20070423105639
+24.225.157.90 4 8 210485 20070422085136
+138.89.77.208 6 24 436881 20070421065343
+138.89.148.170 8 28 539501 20070419072950
+68.83.70.4 2 12 196486 20070409184830
+207.200.116.198 1 1 71440 20070420052206
+69.249.46.200 7 14 409119 20070415191420
+68.236.211.249 6 19 467577 20070413100842
+68.193.101.32 2 2 8200 20070404180951
+64.34.145.194 2 2 20426 20070430080310
+64.12.116.16 2 2 128356 20070430195751
+69.142.235.90 2 5 116759 20070419211026
+69.115.82.240 2 5 116759 20070419131938
+205.188.117.5 4 4 43848 20070429062713
+67.81.152.115 4 8 210485 20070414041952
+141.153.144.183 4 15 410100 20070405062749
+69.249.85.3 22 68 1211899 20070405142745
+138.89.8.46 4 17 410100 20070412104032
+70.71.118.149 16 39 1125299 20070423093230
+72.79.6.152 8 29 662729 20070411121513
+69.249.47.0 11 33 730881 20070420064226
+67.80.156.43 2 5 116759 20070412082251
+64.12.112.167 1 1 71440 20070425034923
+69.115.240.147 9 15 402083 20070427202722
+68.38.218.129 1 4 45319 20070416155646
+68.192.156.95 2 5 116759 20070419081238
+67.85.53.235 9 24 590446 20070428061724
+64.5.245.23 1 1 10213 20070412091634
+68.45.43.83 4 8 210485 20070416052603
+67.85.68.169 14 33 920233 20070414064826
+205.188.116.205 0 1 79329 
+24.149.131.21 4 8 210485 20070403121113
+71.250.181.218 5 10 2959252 20070409153228
+68.239.151.63 4 15 410100 20070427052019
+205.188.116.76 21 21 1143040 20070429062558
+72.90.246.223 5 10 318645 20070421095023
+64.12.116.77 4 7 442703 20070425034946
+71.172.51.240 6 18 330200 20070403092849
+69.249.95.98 2 5 116759 20070408192704
+69.142.13.42 4 8 210485 20070417132110
+71.251.212.162 11 20 742248 20070412115407
+151.198.205.170 2 5 116759 20070412090622
+139.18.13.202 1 1 8249 20070421171419
+141.153.198.154 2 5 116759 20070422060738
+68.33.127.225 2 12 196486 20070425120258
+24.149.228.38 4 8 210485 20070430084218
+206.15.98.62 14 36 611986 20070405124552
+69.34.93.141 33 90 2491754 20070418070448
+68.239.248.80 4 21 343155 20070409144031
+68.197.164.37 4 9 295642 20070427154617
+69.249.3.22 5 10 289141 20070417074112
+69.248.100.113 4 8 210485 20070416100836
+155.91.28.232 35 86 8914584 20070424061714
+68.39.115.162 6 15 379603 20070414052057
+62.194.10.101 26 30 515706 20070427074711
+67.85.162.20 5 10 318645 20070402093652
+69.142.234.120 26 80 1557923 20070402080948
+167.206.84.162 1 3 25472 20070403090242
+68.193.255.61 6 14 1456049 20070401060213
+68.167.132.204 18 102 326952 20070412053451
+70.105.165.27 7 13 453459 20070411061439
+208.253.158.36 2 5 116759 20070416082159
+69.115.46.141 4 9 285877 20070418092324
+68.38.84.204 14 37 967439 20070421085026
+138.89.153.254 11 26 1541214 20070410201142
+70.111.233.117 1 4 45319 20070429085113
+192.250.112.194 13 31 896942 20070409134931
+68.196.161.103 5 10 318645 20070425150429
+64.61.21.130 4 8 210485 20070406072103
+155.232.128.10 2 5 170949 20070409073910
+71.250.30.249 2 5 10213 20070416133505
+132.238.165.87 5 9 229678 20070409083015
+68.38.49.139 4 8 210485 20070420053344
+24.225.135.209 4 8 210485 20070428095608
+76.185.4.222 2 2 20426 20070423173210
+64.12.116.80 1 2 50682 20070415160356
+69.249.51.177 4 8 210485 20070409083519
+138.89.62.75 16 34 1124529 20070411104157
+69.141.214.105 4 8 210485 20070423161527
+207.69.138.135 11 18 585168 20070427072325
+24.0.193.211 8 27 686326 20070422093522
+12.10.219.39 8 16 238761 20070412133711
+70.19.66.252 10 20 318645 20070423172504
+68.36.11.137 4 9 251012 20070423092315
+68.38.243.205 5 10 1105077 20070406140257
+24.187.115.180 4 8 210485 20070428104222
+24.228.38.216 10 20 379603 20070424045251
+68.192.168.48 8 17 360941 20070421082658
+139.18.2.68 1 1 8161 20070420060126
+72.68.101.149 4 9 267215 20070417065420
+72.68.89.84 13 27 817476 20070416053012
+71.172.115.123 6 12 443246 20070415111122
+152.163.100.69 0 3 231708 
+68.193.242.24 4 8 210485 20070406100434
+71.250.253.18 2 5 116759 20070402143036
+207.200.116.139 0 1 2602 
+206.200.253.205 19 58 1364595 20070430083852
+24.227.35.82 2 5 116759 20070423125213
+207.200.116.74 0 2 5966 
+152.163.100.132 0 3 8940 
+209.178.222.62 5 10 318645 20070409085817
+69.249.93.81 16 45 1176838 20070430114923
+68.38.252.232 13 32 718974 20070421133049
+68.192.184.117 4 8 210485 20070421093159
+67.80.211.56 4 8 210485 20070414094835
+141.150.141.214 4 8 210485 20070409153745
+152.163.100.17 4 4 256456 20070416095511
+68.193.111.232 4 10 217315 20070417185731
+64.12.116.66 6 8 334518 20070424131346
+71.250.37.60 22 87 1596243 20070428090114
+68.36.124.17 2 5 116759 20070402181813
+69.115.163.140 8 43 343155 20070413205058
+66.30.188.180 2 12 196486 20070412204149
+66.194.6.68 1 1 10213 20070419171020
+24.187.151.235 4 21 343155 20070419165825
+66.194.6.94 2 2 20426 20070417100751
+69.142.124.242 11 20 665045 20070429102652
+67.81.16.208 4 10 210485 20070404064911
+24.149.131.16 4 16 309774 20070423050210
+69.249.92.185 4 8 210485 20070422120802
+69.253.110.96 7 11 359139 20070430075305
+72.76.141.6 6 13 71725 20070425084808
+72.79.15.250 4 21 343155 20070408074511
+70.57.230.163 2 5 116759 20070405104128
+69.115.49.144 2 5 118140 20070408055220
+63.115.62.162 4 8 210485 20070430083430
+129.241.104.189 1 1 10213 20070427125321
+64.12.186.234 6 6 337090 20070428124033
+69.142.50.116 16 41 1014558 20070412175008
+68.254.161.17 2 6 157286 20070409180247
+207.122.88.3 14 34 1133098 20070424120820
+65.216.75.240 22 70 1711543 20070416080936
+86.60.3.28 2 10 17043 20070411135807
+67.85.14.219 13 28 2098465 20070422134540
+68.38.219.116 6 19 467577 20070412060135
+69.249.46.79 2 5 116759 20070414191045
+162.66.50.6 1 2 74533 20070425123939
+69.116.223.52 6 14 402636 20070423194843
+67.83.29.29 4 8 0 20070405062815
+165.230.25.12 4 8 210485 20070430072858
+72.14.228.89 4 8 210485 20070427080728
+67.83.96.175 2 5 116759 20070425203217
+68.192.174.57 4 9 267215 20070419135456
+201.147.242.241 2 5 116759 20070411160017
+205.188.116.68 4 8 317868 20070412131607
+66.194.6.84 2 2 20426 20070418192214
+72.88.216.223 9 23 586463 20070419101840
+66.162.64.254 4 8 210485 20070404055348
+217.169.46.98 2 2 21297 20070418060723
+71.172.128.208 4 9 267215 20070427142705
+64.12.116.6 1 3 2073316 20070407090637
+64.12.117.8 0 2 9922 
+160.83.73.19 0 1 28276 
+69.120.49.224 8 33 810498 20070401145233
+24.228.16.142 6 19 467577 20070416110756
+71.250.226.124 10 26 814677 20070424133902
+68.192.173.239 6 27 393897 20070405064639
+198.45.18.28 2 5 116759 20070404083308
+67.81.176.116 4 8 210485 20070429040015
+72.76.156.141 17 42 1128112 20070413191534
+70.111.191.164 8 20 525487 20070405053442
+12.1.48.108 3 9 256946 20070404101053
+208.115.203.171 4 21 343155 20070402124120
+152.163.100.78 0 13 633449 
+72.79.86.99 15 33 834749 20070405214231
+67.81.94.167 4 8 229346 20070403030726
+24.187.125.66 4 8 229346 20070404070824
+24.228.21.137 7 14 1360497 20070403142325
+63.251.210.65 24 24 269757 20070412012857
+81.99.79.205 2 5 118140 20070401163239
+64.12.186.239 6 6 308015 20070428124354
+68.192.25.230 13 28 490218 20070418183100
+205.188.116.145 2 4 4754 20070411142953
+67.81.255.136 4 15 410100 20070409001914
+213.236.226.3 2 12 196486 20070416065219
+83.133.125.202 3 3 30639 20070422122600
+68.197.180.76 8 16 494272 20070423150439
+67.85.134.126 4 8 226413 20070428183942
+64.12.116.78 2 2 159186 20070419164337
+67.83.103.165 8 20 539592 20070409171134
+67.83.157.145 6 13 428377 20070420190209
+206.15.203.10 23 65 2938721 20070423075309
+165.225.194.79 13 36 3543198 20070410061455
+24.187.87.234 18 76 1151551 20070415120807
+68.36.251.44 20 68 1007652 20070424100840
+64.238.112.122 4 9 257496 20070419052819
+70.21.152.204 8 26 638490 20070415083724
+71.250.28.246 4 8 226413 20070411184338
+24.0.190.127 2 8 54693 20070427085908
+68.239.205.6 2 5 116759 20070423084350
+71.172.89.16 25 63 2974806 20070406010450
+68.192.27.109 6 12 313105 20070424112925
+207.200.116.8 3 4 13222 20070425132033
+205.188.117.19 0 2 2842 
+64.34.145.201 2 2 20426 20070423143054
+24.225.133.139 6 29 631615 20070413112748
+24.187.104.169 4 15 410100 20070402165056
+67.81.90.178 10 45 436881 20070416134912
+71.172.51.65 5 23 393895 20070410033453
+67.83.24.121 9 17 500172 20070414110232
+74.124.192.76 2 2 20186 20070429164213
+12.149.13.1 2 5 116759 20070402121403
+70.177.241.97 6 12 503165 20070415091541
+64.12.117.5 1 5 25147 20070415160319
+68.197.186.1 4 9 231428 20070410074654
+68.239.144.162 2 5 116759 20070411140452
+69.249.65.246 8 22 618495 20070427075225
+205.156.188.254 4 21 343155 20070405102747
+71.119.186.144 9 30 233197 20070405115859
+70.105.165.229 2 5 116759 20070417120322
+207.200.116.10 1 1 181914 20070420052212
+69.142.210.154 4 9 285877 20070422210350
+198.152.12.67 2 11 0 20070421023940
+141.153.168.28 4 9 269674 20070404060911
+67.80.210.250 4 8 210485 20070428053440
+69.116.94.79 8 16 612364 20070407202828
+69.115.162.39 0 1 28276 
+64.12.116.18 3 4 247299 20070419164316
+69.249.84.209 14 71 332942 20070419174145
+138.162.0.42 5 10 482485 20070410095408
+205.188.116.80 0 4 15484 
+71.187.19.212 4 9 267215 20070416080645
+69.74.142.194 9 23 571516 20070405075752
+205.188.117.10 0 2 5204 
+151.198.135.109 2 5 116759 20070406192139
+199.172.169.17 5 10 2959252 20070430093702
+12.14.40.150 4 21 343155 20070404094835
+205.188.116.131 0 6 20154 
+75.197.30.252 21 43 3935366 20070415125339
+70.111.24.16 16 39 785510 20070404073840
+199.43.32.85 16 54 876612 20070413112040
+208.115.206.95 8 28 605999 20070401065233
+205.228.12.193 1 2 12781 20070412084613
+69.249.40.164 4 8 210485 20070421055555
+69.142.10.174 10 20 644728 20070419101718
+72.68.86.129 4 8 210485 20070422154121
+207.200.171.4 10 27 646489 20070412142535
+207.200.116.136 0 1 3038 
+68.197.164.125 5 10 296090 20070406064303
+69.142.18.247 5 12 1816541 20070409195417
+71.250.6.70 14 78 660437 20070425161539
+69.116.57.159 4 8 210485 20070415050355
+71.0.111.142 9 18 1238914 20070412064254
+24.228.45.85 6 19 571262 20070422134900
+146.145.243.132 12 24 721530 20070430104028
+152.163.100.80 3 5 157877 20070416094632
+71.127.216.251 4 8 210485 20070427165726
+69.155.106.3 5 10 296090 20070404065201
+205.188.116.208 2 4 19340 20070408094804
+68.37.34.245 4 9 231428 20070413153101
+72.76.84.30 8 18 534430 20070428160153
+196.25.255.195 0 1 43 
+69.51.226.139 6 12 310190 20070417115313
+67.83.218.142 2 5 116759 20070417093147
+74.9.99.122 12 22 977296 20070409085718
+207.99.68.22 4 8 210485 20070412080901
+172.144.55.196 8 14 2967490 20070418145904
+68.196.93.225 4 9 267215 20070413130240
+68.38.203.53 4 8 210485 20070413070938
+69.163.12.116 1 1 10213 20070425192615
+68.196.14.125 5 10 1039541 20070408113713
+12.110.136.91 3 8 0 20070412091507
+66.180.82.89 2 2 21467 20070409173313
+67.83.158.164 12 23 678523 20070415070714
+70.107.16.179 2 5 172589 20070424092434
+192.245.246.12 26 66 1583375 20070424132941
+67.83.158.229 6 19 467577 20070416104035
+152.163.100.10 6 7 53441 20070428071902
+68.80.191.51 3 8 1362323 20070403100421
+152.163.100.144 1 1 13267 20070403050412
+199.181.114.48 6 28 436881 20070427121638
+76.98.56.125 14 33 1649794 20070430094225
+24.173.19.104 2 5 78087 20070427182954
+72.88.198.74 4 8 210485 20070403060214
+208.115.201.136 2 5 116759 20070430144211
+72.90.159.105 6 13 210485 20070402173733
+70.111.155.248 8 16 475610 20070428081053
+68.44.189.95 6 24 436881 20070429191947
+68.192.173.225 12 30 774408 20070418090000
+24.33.246.129 4 21 343155 20070405181958
+67.85.182.6 5 10 384181 20070429082300
+24.187.132.60 5 13 218646 20070425122605
+69.116.242.233 2 5 116759 20070406184616
+64.34.145.197 2 2 20426 20070421230034
+64.12.116.68 0 13 1796802 
+71.172.51.209 13 43 3516699 20070402034934
+12.119.34.102 4 9 285877 20070405103045
+72.88.148.13 5 10 1367221 20070412151056
+66.194.6.96 4 4 40852 20070420004233
+69.142.234.111 14 82 512273 20070404161409
+67.85.134.15 4 8 210485 20070402053015
+170.61.20.229 16 44 43957736 20070403142908
+152.163.100.134 0 5 9933 
+152.163.100.209 3 6 194286 20070418090832
+69.249.50.11 4 8 210485 20070418074154
+194.143.53.194 1 1 10213 20070411045405
+12.146.131.5 12 29 973670 20070401140322
+68.197.163.183 16 41 1015979 20070430123406
+66.81.46.154 4 8 329958 20070401161851
+198.23.5.73 4 8 210485 20070403094743
+138.89.84.99 6 29 493611 20070425191250
+152.163.100.142 0 8 14522 
+67.151.153.5 4 9 231428 20070403071610
+69.249.45.141 20 43 1393669 20070414105601
+74.73.211.100 5 10 416949 20070410121020
+69.17.195.48 4 21 343155 20070420054222
+152.163.100.19 0 1 77654 
+71.187.85.102 4 8 210485 20070416141242
+152.163.100.70 1 2 19774 20070409170035
+24.225.133.119 4 7 129962 20070428130118
+15.227.217.77 4 15 410100 20070409103621
+71.233.101.153 1 11 183219 20070417135808
+141.150.47.38 8 14 1476475 20070428082257
+71.250.236.236 11 22 539929 20070417101228
+24.225.148.84 10 20 747637 20070413191040
+138.89.47.6 11 38 328187 20070412200259
+71.172.107.233 8 14 475666 20070428190545
+12.34.17.158 8 16 210485 20070419085956
+24.185.233.76 11 23 990370 20070415181744
+71.172.28.172 4 15 410100 20070423074941
+24.187.113.75 13 24 1082903 20070405074536
+4.248.78.21 1 4 45319 20070416040403
+12.144.46.130 14 38 1447689 20070415170957
+24.187.128.183 16 35 635009 20070430082500
+64.20.175.5 2 5 116759 20070402102815
+69.249.67.33 4 9 216464 20070415185822
+155.94.62.222 2 5 116759 20070416103010
+198.140.183.1 1 4 45319 20070424151417
+138.89.182.221 10 19 708973 20070429082211
+76.98.187.139 5 9 349897 20070417113749
+24.187.186.211 6 36 385797 20070406112913
+72.88.208.46 4 21 343155 20070415101041
+162.66.50.4 1 1 71440 20070425123929
+72.68.173.229 2 5 116759 20070410135927
+69.159.230.196 4 8 210485 20070423095229
+66.251.106.238 2 5 116759 20070430092313
+63.83.70.149 2 5 116759 20070401031904
+68.36.54.143 23 62 1480632 20070422192213
+71.172.57.110 2 5 116759 20070424075423
+68.38.93.115 4 21 343155 20070424125909
+209.204.112.50 2 6 67320 20070412102231
+152.163.100.20 0 2 9106 
+67.81.89.2 15 68 846979 20070427184652
+24.225.143.102 2 5 116759 20070428075832
+24.0.45.254 4 8 210485 20070421115725
+67.87.248.57 5 10 289141 20070408081439
+66.180.82.81 2 2 16580 20070409173238
+67.62.56.131 2 5 116759 20070413115204
+67.83.84.77 0 1 2808 
+63.139.153.122 20 52 1027151 20070419100231
+68.80.215.65 17 37 4515584 20070425065518
+68.39.144.235 6 18 450635 20070403151846
+71.187.27.152 10 25 582132 20070416204016
+69.116.20.147 4 15 410100 20070413161417
+66.2.88.121 2 5 116759 20070402101428
+12.6.194.2 2 6 157286 20070403122217
+66.207.35.146 1 4 45319 20070419151808
+71.187.25.75 4 9 231428 20070415114646
+68.192.26.114 7 16 314930 20070424154659
+67.77.245.231 8 14 491190 20070407145008
+64.93.39.76 6 25 512273 20070416105317
+207.230.140.240 2 5 118140 20070423073548
+70.111.10.144 8 18 536200 20070418061016
+68.238.252.52 6 12 325154 20070422073331
+61.94.213.210 3 7 139045 20070424005052
+69.125.126.228 2 12 196486 20070403113725
+205.188.116.78 0 4 10826 
+205.188.116.6 2 2 25416 20070411104729
+24.238.67.226 1 1 10213 20070404171642
+68.197.205.62 10 60 343155 20070430171323
+71.234.230.190 2 5 116759 20070428173027
+208.115.232.129 2 5 116759 20070403053350
+69.69.125.106 8 16 210485 20070416124245
+65.217.246.194 1 4 45319 20070403140501
+171.159.192.10 16 49 1367757 20070405055951
+68.239.211.7 6 19 467577 20070402073652
+24.149.252.34 10 33 777398 20070422132014
+70.111.153.174 2 5 116759 20070422051732
+67.83.124.42 4 8 210485 20070419132610
+208.115.204.148 6 13 392590 20070408125231
+71.250.7.217 10 28 486844 20070416105835
+4.186.54.209 6 21 8200 20070418125513
+65.206.37.221 9 17 568699 20070418103354
+68.192.72.61 7 20 1496722 20070401054016
+24.187.125.116 26 65 3153249 20070414041027
+68.193.244.120 11 34 514039 20070403072033
+199.21.28.13 2 5 116759 20070418143952
+206.173.175.34 3 8 1362323 20070402061249
+70.21.169.219 2 5 116759 20070415151143
+69.93.116.186 1 1 10213 20070425004326
+69.249.69.154 5 22 355863 20070423045457
+67.85.162.39 4 21 343155 20070424155632
+81.225.115.17 4 8 357474 20070421093408
+68.37.253.178 8 23 620585 20070407070414
+152.163.100.205 1 5 99285 20070409165941
+64.253.39.138 4 8 210485 20070423085858
+66.194.6.70 3 3 30639 20070423011555
+64.12.116.75 0 3 4491 
+71.187.116.65 4 8 210485 20070406130921
+192.172.8.14 35 91 8032632 20070430082035
+205.188.117.13 1 7 29843 20070411141352
+24.149.134.5 9 19 483886 20070429180910
+207.200.116.195 1 1 0 20070405105215
+71.168.231.189 10 27 150456 20070407070335
+162.66.50.2 1 2 13572 20070425123928
+70.111.103.106 2 5 116759 20070401101124
+68.193.119.233 5 10 449717 20070410035157
+68.239.208.51 12 29 849978 20070420040153
+144.160.98.31 18 35 3674222 20070425134321
+72.68.41.109 2 5 116759 20070407165114
+65.117.26.18 13 37 776145 20070409124600
+207.200.116.138 0 1 2840 
+12.42.51.27 3 10 160429 20070402045603
+68.63.88.185 2 6 157286 20070412185502
+12.38.18.221 4 8 210485 20070406041025
+24.0.190.203 2 6 157286 20070408063915
+205.188.116.66 8 9 174195 20070428133657
+138.162.5.7 4 8 116759 20070423123630
+68.32.58.220 6 19 467577 20070417115717
+66.151.192.1 2 5 116759 20070424052943
+68.100.211.15 2 5 116759 20070425070634
+69.142.3.221 2 5 0 20070412170817
+71.200.9.148 6 24 455742 20070406083929
+68.45.234.188 6 13 400546 20070407054230
+72.79.27.145 4 10 285877 20070420114815
+68.83.135.61 2 5 116759 20070421113137
+68.158.34.173 3 10 233197 20070419120018
+141.153.170.193 4 9 285877 20070401143350
+216.195.193.194 4 8 210485 20070420064052
+69.249.91.46 4 9 285877 20070420201622
+172.134.132.70 8 24 546215 20070411213032
+68.197.162.229 10 21 702445 20070409160046
+192.128.133.68 8 18 436333 20070416120335
+66.180.82.83 1 1 11220 20070409173320
+151.138.254.21 6 19 467577 20070416122419
+71.167.224.58 4 8 392247 20070423122441
+24.187.144.54 5 9 220698 20070415181631
+12.47.208.50 3 20 381048 20070404153605
+65.241.51.2 2 5 116759 20070423124746
+12.149.33.62 11 20 597227 20070419122515
+70.105.165.164 32 76 2784946 20070410084820
+67.80.97.56 5 10 318645 20070413085850
+195.93.21.42 0 1 3471 
+4.250.120.208 5 10 950402 20070407060822
+67.83.153.111 4 8 210485 20070402133859
+69.142.20.86 9 29 616212 20070423101543
+67.81.91.216 8 17 288134 20070421105041
+160.93.120.134 8 16 551170 20070404073223
+68.192.236.95 5 10 241298 20070409164836
+152.163.100.5 3 3 30639 20070428172812
+68.192.14.237 7 13 371154 20070414085838
+24.187.173.125 9 18 529519 20070406180805
+65.37.122.114 4 21 343155 20070406093405
+69.142.171.152 6 27 493611 20070404101947
+67.82.230.70 4 9 285877 20070403120144
+69.249.75.92 6 12 360941 20070406121721
+67.82.56.178 6 19 468958 20070414121715
+38.112.0.22 9 30 695497 20070402141219
+70.243.254.215 6 14 285877 20070409220134
+192.147.57.6 8 34 771847 20070409083747
+24.225.233.164 2 5 116759 20070421210456
+72.68.58.13 10 61 343155 20070412190152
+167.206.48.220 11 37 1123835 20070429152947
+66.151.205.12 6 13 426614 20070403124919
+84.156.140.125 1 1 9870 20070430015655
+199.181.174.146 12 38 935154 20070412143757
+65.160.238.180 2 2 20426 20070423105638
+67.83.156.54 19 50 1168872 20070427202452
+68.83.53.54 6 11 623770 20070407060740
+208.115.206.240 2 5 116759 20070413164329
+69.44.215.68 6 19 467577 20070420064759
+121.34.179.186 1 1 10213 20070429212928
+68.38.84.220 7 19 602130 20070430093930
+24.225.135.192 4 8 210485 20070418115803
+66.216.169.90 1 1 32768 20070424070109
+63.168.131.24 4 11 267215 20070412111239
+216.99.62.58 8 21 537912 20070424124226
+138.89.91.248 2 5 116759 20070419090608
+71.207.16.99 4 12 373793 20070404061849
+216.182.55.150 12 28 2379034 20070407032409
+141.155.225.18 4 10 285877 20070419101748
+67.154.232.202 4 8 210485 20070419113151
+24.149.252.169 2 5 116759 20070420110303
+76.98.216.43 5 10 351413 20070408154656
+71.251.212.184 10 26 678592 20070411080302
+67.102.4.130 17 33 852153 20070423121717
+38.117.232.33 10 20 2472298 20070416111602
+70.91.51.10 4 8 210485 20070423121140
+68.197.163.77 10 20 655434 20070430145320
+24.187.122.182 10 26 678592 20070424175856
+64.12.117.10 1 2 10763 20070415160356
+71.250.254.111 5 10 318645 20070425064953
+67.42.33.126 10 22 881129 20070415114955
+71.250.177.78 9 19 1072309 20070405081027
+152.163.101.8 1 4 98280 20070412184058
+208.115.203.80 8 23 582246 20070414102255
+71.172.113.121 2 5 116759 20070427105149
+208.120.69.139 7 15 658876 20070418202213
+67.80.221.75 4 21 343155 20070423063017
+71.58.68.98 2 5 116759 20070420165741
+152.163.101.17 0 7 16848 
+70.111.176.171 4 8 210485 20070405141004
+72.68.89.223 4 8 0 20070403083144
+159.53.78.142 2 4 113400 20070430072633
+196.25.255.214 0 2 5466 
+141.150.46.94 4 9 247205 20070402175432
+141.153.180.131 4 15 410100 20070425081054
+71.172.86.216 6 23 505164 20070429125013
+24.187.155.137 10 27 561303 20070417114131
+76.98.135.114 20 85 1600983 20070408130019
+24.187.95.48 11 27 701732 20070404162850
+65.220.126.190 6 13 385598 20070403095859
+68.162.33.26 4 8 210485 20070427061946
+71.172.79.12 3 8 1362323 20070412110505
+206.218.208.58 0 2 0 
+70.186.196.167 1 11 117015 20070415073000
+141.150.16.36 5 10 1039541 20070402153641
+68.193.132.112 6 19 560556 20070430195619
+208.196.3.108 4 9 185496 20070417043029
+24.0.51.71 2 12 196486 20070425134423
+198.140.63.34 6 12 313105 20070402091054
+204.185.71.252 2 12 196486 20070423092059
+169.196.240.2 6 12 1154410 20070409104248
+69.136.67.29 2 6 157286 20070415201743
+152.163.100.12 2 2 143450 20070412165016
+71.226.239.3 4 9 285877 20070420165214
+68.28.115.123 3 6 128010 20070415145050
+64.12.116.131 2 7 450683 20070430195747
+70.111.191.100 15 44 494105 20070423082535
+67.85.198.214 11 20 762986 20070421092632
+198.185.18.207 6 28 436881 20070425082442
+68.196.139.63 4 21 343155 20070417084636
+71.187.66.3 7 20 478797 20070425083238
+169.132.18.248 17 42 1039255 20070429173118
+68.45.37.170 12 29 1002833 20070422191023
+68.45.43.124 6 12 371647 20070423181047
+70.198.234.72 4 8 210485 20070427123910
+69.249.49.124 4 9 285877 20070402161734
+192.11.226.103 4 9 285877 20070430071604
+64.102.254.33 13 23 1405624 20070406115420
+68.192.21.69 2 5 116759 20070407163720
+67.80.24.45 4 21 326952 20070429103244
+129.139.138.52 11 23 510675 20070416113753
+24.228.79.128 4 8 210485 20070414084558
+192.154.128.228 8 16 210485 20070419052133
+71.4.92.35 2 9 198269 20070419120457
+166.20.24.145 2 5 116759 20070412095029
+76.98.178.107 6 26 436881 20070401121901
+67.85.13.159 6 13 453355 20070428124530
+63.241.72.21 6 13 311041 20070420101226
+164.109.49.208 2 5 116759 20070424085202
+24.187.171.161 6 19 467577 20070415110357
+24.149.157.30 6 12 374267 20070411174716
+12.35.232.62 6 12 377182 20070403102636
+71.187.134.140 10 23 725338 20070417155039
+67.82.103.130 5 19 1555338 20070408062231
+64.151.4.4 7 13 382500 20070401193751
+67.100.8.107 4 8 132856 20070413052735
+74.92.123.221 4 8 210485 20070425065026
+205.188.116.142 0 5 8974 
+24.187.147.8 10 30 627423 20070419104449
+4.186.21.194 4 16 264888 20070402075624
+68.193.64.246 6 19 467577 20070414185547
+209.212.25.142 2 5 116759 20070402142840
+205.188.116.14 0 1 2709 
+205.188.116.74 6 6 6700211 20070425112904
+152.163.101.5 0 4 16590 
+64.34.145.195 6 6 69936 20070407031912
+72.79.76.248 18 35 1228534 20070418105702
+76.1.241.206 5 10 210485 20070415135124
+216.169.212.254 24 48 1885319 20070409060450
+64.12.186.231 6 6 381626 20070428124540
+67.80.159.198 12 24 420970 20070414113710
+68.38.208.41 4 21 343155 20070401143732
+64.132.56.83 4 9 285877 20070420083107
+205.188.116.8 0 9 30231 
+12.47.208.34 16 58 1210834 20070419095628
+69.141.218.206 12 23 662285 20070402194148
+152.163.100.137 4 5 206731 20070421111805
+216.15.75.7 10 35 760918 20070425174106
+68.36.193.81 12 32 944802 20070419075156
+216.6.185.70 8 14 1034963 20070415164207
+68.38.237.182 4 15 410100 20070414180809
+72.229.125.180 11 22 3985333 20070405063649
+66.194.6.75 4 4 40852 20070430101434
+205.188.116.203 1 2 82952 20070406042924
+72.68.86.139 28 69 81346706 20070418171956
+68.193.244.121 6 12 379603 20070414112541
+68.160.126.49 2 5 116759 20070428163558
+216.255.119.129 8 33 746284 20070417065051
+69.249.76.97 7 17 276589 20070410114914
+189.145.71.81 6 19 571262 20070425222418
+67.81.160.116 4 15 410100 20070427100153
+24.225.129.111 6 15 0 20070407122211
+68.193.70.164 11 21 564349 20070419055452
+70.90.8.114 8 37 693973 20070406142600
+199.43.48.131 6 19 465487 20070403100113
+162.115.236.123 3 11 231802 20070423102329
+67.83.152.117 4 8 210485 20070418103802
+67.80.95.117 6 19 467577 20070420133532
+72.76.240.4 6 39 343155 20070409191525
+216.169.212.78 2 5 0 20070424115828
+138.89.142.136 6 19 579218 20070417120227
+38.117.162.243 8 44 436881 20070417090254
+68.36.11.245 7 14 409119 20070410110005
+68.193.246.153 2 5 116759 20070421090827
+71.125.84.59 4 9 257496 20070421112630
+209.208.181.40 6 25 457824 20070403063318
+70.106.89.58 14 40 825587 20070406101149
+12.14.70.200 1 2 13572 20070403095014
+152.163.100.14 1 3 16399 20070430160713
+151.198.7.13 4 9 285877 20070402175526
+69.142.224.160 2 5 116759 20070424113710
+68.5.229.174 23 23 258537 20070420085932
+67.80.223.212 2 5 116759 20070404090300
+72.79.75.97 4 8 210485 20070403074521
+64.12.116.204 3 6 33100 20070419164313
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20070401 401 1173 26498911 84
+20070402 504 1281 41790045 111
+20070403 467 1322 78479583 109
+20070404 505 1241 33451466 86
+20070405 562 1506 43634132 81
+20070406 380 954 65905588 76
+20070407 372 857 23236773 82
+20070408 211 608 15723711 53
+20070409 570 1444 50040114 120
+20070410 434 1081 42611812 87
+20070411 435 1189 35681071 96
+20070412 601 1600 81637461 125
+20070413 420 1069 30116256 69
+20070414 302 783 59185326 46
+20070415 538 1468 38847421 108
+20070416 531 1396 37789401 113
+20070417 429 1149 36186639 98
+20070418 390 923 108285214 91
+20070419 469 1068 23886173 96
+20070420 393 1039 66818702 72
+20070421 302 760 20333231 67
+20070422 345 923 25232180 63
+20070423 533 1386 34013928 115
+20070424 524 1317 36757659 92
+20070425 418 1124 78082789 95
+20070427 460 1083 39710472 79
+20070428 387 910 26259844 83
+20070429 301 695 17522353 58
+20070430 545 1420 49844826 108
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 6
+5mn-15mn 144
+0s-30s 1605
+30s-2mn 538
+15mn-30mn 57
+2mn-5mn 184
+30mn-1h 29
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 81
+/ 2381 21171549 1950 305
+/swf/home04.swf 1953 119022288 65 389
+/swf/home02.swf 767 48799579 25 497
+/contact_us.html 761 13128012 65 54
+/moldings_hardwoods/ 513 5120808 29 20
+/swf/mouldings.swf 493 38833024 17 126
+/kitchens/ 406 3013267 35 23
+/swf/kitchensA.swf 388 26380699 20 40
+/doors.html 373 3990312 26 15
+/swf/doors-a.swf 357 18484622 5 160
+// 3 30639 3 3
+/_vti_bin/shtml.exe/kitchens/home_improvement_process.html 1 170 0 0
+/jhc/ 285 2664900 28 13
+/kitchens/remodeling_hints.html 89 806229 3 5
+/swf/kitchens04A.swf 76 5702582 3 13
+/grid.pdf 13 384208 0 4
+/survey.pdf 8 263600 2 3
+/kitchens/counter_tops.html 113 885600 10 12
+/_vti_inf.html 1 1754 0 0
+/_vti_bin/shtml.exe/kitchens/counter_tops.html 1 158 0 0
+/_vti_bin/shtml.exe/garage_doors.html 1 149 0 0
+/CreditApp.PDF 7 621571 6 3
+/b-nav.htm 1 3137 0 0
+/_vti_bin/shtml.exe/kitchens/remodeling_hints.html 1 162 0 0
+/AUTHLTR.pdf 8 445648 0 3
+/CreditApp2.pdf 21 1543992 0 9
+/swf/kitchens09A.swf 73 5390026 2 21
+/kitchens/testimonials.html 92 742410 5 9
+/_vti_bin/shtml.exe/kitchens/jhc/ 1 155 0 0
+/_vti_bin/shtml.exe/jhc/ 1 146 0 0
+/distinctive.htm 48 17860 5 12
+/_vti_bin/shtml.exe/contact_us.html 1 147 0 0
+/moldings_hardwoods/Hardwood%20catalog.pdf 206 162253947 12 112
+/kitchens/contact_us.html 40 765375 2 1
+/_vti_bin/shtml.exe/kitchens/kitchen_planning_guide.html 1 168 0 0
+/Employment%20App.pdf 20 1577192 2 10
+/kitchens/gallery.html 167 1325513 8 14
+/swf/kitchens07A.swf 320 21999532 15 146
+/_vti_bin/shtml.exe/_vti_bin/shtml.exe/kitchens/contact_us.html 1 108 0 0
+/swf/windows-b.swf 220 35505998 6 98
+/kitchens/kitchen_planning_guide.html 94 1447173 10 7
+/_vti_bin/shtml.exe/kitchens/cabinets.html 1 154 0 0
+/images/15995.exe 33 338914944 0 12
+/_vti_bin/shtml.exe/kitchens/testimonials.html 1 158 0 1
+/_vti_bin/shtml.exe/kitchens/measuring_for_your_new_kitchen.html 1 176 0 0
+/swf/kitchens06A.swf 59 4536801 2 11
+/swf/kitchens03A.swf 96 7356152 4 24
+/kitchens/home_improvement_process.html 113 1170624 9 8
+/_vti_bin/shtml.exe/kitchens/planning.html 1 154 0 0
+/_vti_bin/shtml.exe/kitchens/flooring.html 1 154 0 0
+/credit_dept.html 53 365654 2 2
+/_vti_bin/shtml.exe/kitchens/contact_us.html 1 18871 0 0
+/_vti_bin/shtml.exe/_vti_rpc 2 400 0 0
+/_vti_bin/shtml.exe/moldings_hardwoods/ 1 161 0 0
+/key_account.html 64 489346 2 4
+/_vti_bin/shtml.exe/kitchens/gallery.html 1 153 0 0
+/kitchens/../contact_us.html 5 95965 5 0
+/_vti_bin/shtml.exe/ 1 142 0 0
+/kitchens/measuring_for_your_new_kitchen.html 80 1748228 14 3
+/_vti_bin/shtml.exe/kitchens/Kitcontact_us.html 1 159 0 0
+/windows.html 238 2576420 12 11
+/jhc/../contact_us.html 5 95965 0 5
+/swf/garage-a.swf 194 9359200 7 74
+/_vti_bin/shtml.exe/kitchens/kitchens09.html 1 156 0 0
+/swf/kitchens02.swf 212 15632996 11 55
+/swf/flooring.swf 121 5906892 7 56
+/_vti_bin/shtml.exe/kitchens/moldings_hardwoods/ 1 170 0 0
+/swf/jhc-b.swf 262 18777532 9 75
+/_vti_bin/shtml.exe/kitchens/garage_kitchens09.html 1 163 0 0
+/_vti_bin/shtml.exe/kitchens/windows.html 1 153 0 0
+/_vti_bin/shtml.exe/kitchens/kitchens/ 1 160 0 0
+/kitchens/planning.html 75 1053908 5 5
+/CashApp.pdf 17 155554 6 7
+/flooring.html 144 1150701 13 8
+/_vti_bin/shtml.exe/windows.html 1 144 0 0
+/swf/kitchens10A.swf 62 4569512 1 19
+/_vti_bin/shtml.exe/doors.html 1 142 0 0
+http://www.jaegerlumber.com/ 1 10213 1 1
+/garage_doors.html 222 2124249 42 13
+/kitchens/Kitcontact_us.html 59 639540 7 19
+/kitchens/cabinets.html 289 3383085 45 23
+END_SIDER
