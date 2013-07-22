@@ -1,0 +1,10 @@
+
+# Options None
+
+<Limit GET POST PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName www.jaegerlumber.com
+AuthUserFile /home/users/web/b2472/ipw.jaegerlu/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/users/web/b2472/ipw.jaegerlu/public_html/_vti_pvt/service.grp
